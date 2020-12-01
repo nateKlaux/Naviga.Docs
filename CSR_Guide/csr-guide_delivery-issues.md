@@ -28,12 +28,12 @@ This [workflow](example.com) is a supplement to this guide and can help determin
 
 Some key information:
 
-- Subscribers cannot make complaints before the redelivery window.
+- Subscribers cannot make complaints before the redelivery window. They can inside or after the redelivery window.
 - Subscriber's cannot make complaints during vacation days.
 
 ### Record a complaint
 
-To record a complaint made inside or after the redelivery window:
+To record a complaint:
 
 1. Select the **calendar icon** and choose a complaint date.
 The client determines the number of days back, as well as the number of complaints you can select.

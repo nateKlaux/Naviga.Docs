@@ -4,7 +4,7 @@ This feature allows you to pause a subscriber's subscription delivery. It functi
 
 ### Navigation
 
-This feature is found under the **stop tab**. To navigate to this tab, perform a [subscription search](www.subsearch.com), and then select the **Stop** tab.
+You can find this feature under the **stop tab**. To navigate to this tab, perform a [subscription search](www.subsearch.com), and then select the **Stop** tab.
 
 (GIF OF PROCESS)
 
@@ -12,16 +12,11 @@ This feature is found under the **stop tab**. To navigate to this tab, perform a
 
 When creating a temporary pause, there are some things to be aware of.
 
+- You can edit or cancel existing temporary stops in the **scheduled stops/starts** grid.
 - Temporary stops cannot overlap with other stops or transfers.
 - Temporary stops must comply with the **vacation cut-off times** table.
 
-A **vacation cut-off times** table example:
-
-`Sun for Mon | 07:00 PM Sun`
-
-translates to:
-
-`For a Monday stop, the cutoff must occur by 7:00 PM Sunday.`
+> For example, `Sun for Mon | 07:00 PM Sun` translates to `For a Monday stop, the cutoff must occur by 7:00 PM Sunday`.
 
 ### Create a temporary stop
 
