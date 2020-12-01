@@ -1,15 +1,40 @@
-## Temporary Pause for Vacation
+## Temporary Vacation Stop
 
-This feature allows CSRs to pause the delivery of a subscription of subscriber's that are on vacation. It functions as a temporary hold.
+This feature allows you to pause a subscriber's subscription delivery. It functions as a temporary hold of a subscription.
+
+### Navigation
+
+This feature is found under the **stop tab**. To navigate to this tab, perform a [subscription search](www.subsearch.com), and then select the **Stop** tab.
+
+(GIF OF PROCESS)
 
 ### Things to Know
 
-Adhere to the vac cut off time table.
+When creating a temporary pause, there are some things to be aware of.
+
+- Temporary stops cannot overlap with other stops or transfers.
+- Temporary stops must comply with the **vacation cut-off times** table.
+
+A **vacation cut-off times** table example:
+
+`Sun for Mon | 07:00 PM Sun`
+
+translates to:
+
+`For a Monday stop, the cutoff must occur by 7:00 PM Sunday.`
+
+### Create a temporary stop
 
 To create a temporary stop:
 
 1. Select **temporary stop**. The **add new temporary stop** feature appears.
-2. Choose a **stop date** and **resume date**. (NOTE ABOUT VAC CUT OFF TIMES)
+2. Choose a **stop date** and **resume date**. Adhere to the **vacation cut-off times** table.
 3. Choose a **reason** from the drop-down menu.
-4. Select a **hold option**. `VacPack` is... `Credit` is... `Donation` is...
-5. Confirm the disclaimer text to the subscriber and select **submit**.
+4. Select a **hold option**. `VacPack` stops physical delivery and enables digital access. `Credit` provides the subscriber with an account credit. `Donation`  provides subscribe a donation option.
+5. (Optionally, if subscriber chooses `donation`, select a **donation option**.)
+6. Confirm the disclaimer text to the subscriber and select **submit**.
+
+See also: [permanent stop](example.com), [vacation transfer](example.com)
+
+
+<br><br><br><br><br><br><br><br><br><br>
