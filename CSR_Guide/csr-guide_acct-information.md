@@ -14,7 +14,7 @@ To view the **account information** tab, perform a [subscription search](www.sub
 
 ### Account Information Definitions
 
-These are the account information definitions. These values return in real-time, via API calls to either the circulation database or the Subscribe database. These databases sync together on a nightly basis. The **Source** column in the table below indicates the database that stores the information.
+These are the account information definitions. These values return in real-time, via API calls to either the circulation database or the Subscribe database. These databases sync together on a nightly basis. The **source** column in the table below indicates the database that stores the information.
 
 **Account Details**
 
@@ -63,6 +63,6 @@ These are the account information definitions. These values return in real-time,
 | Billing Address | Subscriber's billing address. To edit addresses, check out this [how-to](example.com). | Subscribe |
 | Delivery Address | Subscriber's delivery address. To edit addresses, check out this [how-to](example.com). | Subscribe |
 
-From the **account information** tab, you can also [update a subscriber's solicitation preferences](example.com) with the **account update** button and [restart a subscriber's service](example.com) if it has been stopped.
+From the **account information** tab, you can also [update a subscriber's solicitation preferences](example.com) with the **account update** button as well as [restart a subscriber's service](example.com) if it has been stopped.
 
 **See also**: How to [update delivery and billing addresses]().

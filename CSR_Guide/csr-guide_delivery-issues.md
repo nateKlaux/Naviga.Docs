@@ -1,6 +1,6 @@
 ## Delivery Issues and Delivery Management
 
-This guide explores the  **Complaints** tab, which displays information about delivery management and delivery issues. From this tab, you can:
+This guide explores the **complaints** tab, which displays information about delivery management and delivery issues. From this tab, you can:
 
 - view a subscription's complaint history
 - create a new complaint
@@ -10,7 +10,7 @@ This guide also contains instructions for creating new complaints and adding del
 
 ### Navigation
 
-To view the **Complaints** tab, perform a [subscription search](www.subsearch.com), and then select the **Complaints** tab.
+To view the **complaints** tab, perform a [subscription search](www.example.com), and then select the **complaints** tab.
 
 (GIF OF PROCESS)
 
@@ -20,7 +20,7 @@ The **add new delivery error** feature allows you to process subscriber complain
 
 (SCREEN W/ ANNOTATIONS OF REDELIVERY WINDOW AND SOLUTION)
 
-### Helpful Information
+### Reference
 
 This feature is highly configurable and clients define their own rules.
 Familiarization with a client's particular rules is necessary to determine a correct solution.
@@ -28,7 +28,7 @@ This [workflow](example.com) is a supplement to this guide and can help determin
 
 Some key information:
 
-- Subscribers cannot make complaints before the redelivery window. They can inside or after the redelivery window.
+- Subscribers cannot make complaints before the redelivery window on the same day. They can inside or after the redelivery window.
 - Subscriber's cannot make complaints during vacation days.
 
 ### Record a complaint
@@ -48,10 +48,9 @@ To choose `Redelivery`, the complaint must *not* have been made before the redel
 
 ### Subscription Complaint History
 
-The **Complaints** table at the top of the page displays a history of subscription complaints.  The table displays the following categories: `Transaction ID`, `Incident date`, `Complaint description`, `Complaint option`, `Credit value`, and `Escalated`. Any new complaints will appear here.
+The **complaints** table at the top of the page displays a history of subscription complaints.  The table displays the following categories: `Transaction ID`, `Incident date`, `Complaint description`, `Complaint option`, `Credit value`, and `Escalated`. Any new complaints will appear here.
 
-An escalation status of `yes` means a subscriber made multiple complaints in one week.
-The limit of complaints that triggers an escalation status of `yes` is configurable in the circulation system.
+An escalation status of `yes` occurs when a certain number of complaints are created within a certain amount of days. Both the number of complaints and the number of days is client configurable.  
 
 ## Add Delivery Messages and Instructions
 
@@ -80,7 +79,7 @@ To create a carrier or district manager message:
 
 ### Permanent Delivery Messages
 
-This feature creates permanent, placement instructions (e.g. `door delivery` or `double bag when wet`). There is only _one_ permanent message allowed per account, and there is a predetermined list of message options.
+This feature creates permanent, placement instructions (e.g. `door delivery` or `double bag when wet`). Only _one_ permanent message is allowed per account, and the message options are predetermined.
 
 To create a permanent delivery message:
 

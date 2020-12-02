@@ -1,23 +1,23 @@
 ## Temporary Vacation Transfer
 
-This feature allows you to transfer a subscriber's subscription delivery to a different, temporary delivery address.
+This feature allows you to temporarily change a subscription's delivery address.
 
 ### Navigation
 
-You can find this feature under the **stop tab**. To navigate to this tab, perform a [subscription search](www.subsearch.com), and then select the **Stop** tab.
+You can find this feature under the **stop tab**. To navigate here, perform a [subscription search](www.subsearch.com), and then select the **stop** tab.
 
 (GIF OF PROCESS)
 
-### Things to Know
+### Reference
 
-When creating a vacation transfer, there are some things to be aware of.
+Here are some helpful pointers when creating or updating vacation transfers.
 
+- Transfers cannot overlap with other stops.
 - You can edit or cancel existing transfers in the **scheduled stops/starts** grid.
-- Transfers cannot overlap with other permanent stops or temporary pauses.
+- If a vacation transfer has already been created, you can only update the dates (and not the address). To update the address, cancel the initial vacation transfer and start anew.
+- If the temporary delivery address is within a delivery route, a carrier will deliver the subscription per usual. Otherwise, the subscription will ship via mail, which might lead to a later delivery.
 - Transfers must comply with the **vacation cut-off times** table.
-- If the temporary delivery address is within the delivery route, a carrier will deliver the subscription. Otherwise, the subscription will ship via mail.
-
-> For example, `Sun for Mon | 07:00 PM Sun` translates to `For a Monday transfer, the cutoff must occur by 7:00 PM Sunday`.
+    > For example, `Sun for Mon | 07:00 PM Sun` translates to `For a Monday transfer, the cutoff must occur by 7:00 PM Sunday`.
 
 ### Create a vacation transfer
 
@@ -28,6 +28,23 @@ To create a vacation transfer:
 3. Enter a temporary delivery address into the corresponding fields.
 4. Select a **transfer reason**.
 5. Confirm the disclaimer text to the subscriber and select **submit**. You will see the scheduled transfer in the **scheduled stops/starts** grid.
+
+### Update or cancel a vacation transfer
+
+To cancel a vacation transfer:
+
+1. Navigate to the **scheduled stops/starts** grid.
+2. Select the **cancel** button next to the corresponding vacation transfer.
+3. Confirm you want to delete the record and select **OK**.
+
+To update a temporary stop:
+
+1. Navigate to the **scheduled stops/starts** grid.
+2. Select the **change** button next to the corresponding vacation transfer. The **change vacation transfer** function appears.
+3. Choose the updated dates for the vacation transfer, being sure to adhere to the **vacation cut-off times** chart.
+4. Select **submit**.
+
+(GIF OF PROCESS)
 
 See also: [permanent stop](example.com), [temporary stop](example.com)
 

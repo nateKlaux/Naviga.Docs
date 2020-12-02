@@ -32,7 +32,7 @@ You can process requests, update information, review events, etc.
 Likely, you will find yourself using this feature in most scenarios.
 By default, the feature displays the [account information](www.example.com) tab.
 
-Upon selecting **start call**, the application will prompt you to confirm the subscriber's email address. This email address is a subscriber's registered email address, which a subscriber uses to access digital subscriptions. This registered email address may or may not be different than a subscriber's subscription email address, which is used for...<X<X>>
+**Note**: Upon selecting start call, the application may prompt you to confirm the subscriber’s registered email address. The registered email address is different than a subscription email address. A subscriber uses the registered email to access digital subscriptions, and may or may not be the subscription email address.
 
 (I think I should flesh this out more. Just unsure of why )
 

@@ -1,35 +1,38 @@
 ## Permanent Stop
 
-This feature allows you to permanently stop a subscriber's subscription.
+This feature allows you to permanently stop a subscription.
 
 ### Navigation
 
-You can find this feature under the **stop tab**. To navigate to this tab, perform a [subscription search](www.subsearch.com), and then select the **Stop** tab.
+You can find this feature under the **stop tab**. To navigate here, perform a [subscription search](www.subsearch.com), and then select the **stop** tab.
 
 (GIF OF PROCESS)
 
-### Things to Know
+### Reference
 
-When creating a permanent stop, there are some things to be aware of.
+When creating a permanent stop, you will work through the **stop saver** workflow with the subscriber. **Stop saver** includes three steps (`1. Benefit Section`, `2. Smart Offer`, `3. Stop Subscription`). These steps help curb a stopped subscription. **Note**: If the reason for a permanent stop is because of a `deceased` subscriber, the **stop saver** feature will not appear.
 
-- You can edit or cancel existing transfers in the **scheduled stops/starts** grid.
-- Transfers cannot overlap with other permanent stops or temporary pauses.
-- Transfers must comply with the **vacation cut-off times** table.
-- If the temporary delivery address is within the delivery route, a carrier will deliver the subscription. Otherwise, the subscription will ship via mail.
+(SCREEN OF STOP SAVER W/ ANNOTATIONS)
 
-> For example, `Sun for Mon | 07:00 PM Sun` translates to `For a Monday transfer, the cutoff must occur by 7:00 PM Sunday`.
+Notes to Self for this section:
+- does a permanent stop appear in the **scheduled start/stops**?
+- How configurable is **reason** list? If they're not configurable, perhaps a `reason glossary` would be helpful.
+- How configurable is `2. smart offer`?
 
-### Create a vacation transfer
+### Permanently stop a subscription
 
-To create a vacation transfer:
+To permanently stop a subscription:
 
-1. Select **vacation transfer**. The **add new vacation transfer** feature appears.
-2. Choose a **stop date** and **resume date**. Adhere to the **vacation cut-off times** table.
-3. Enter a temporary delivery address into the corresponding fields.
-4. Select a **transfer reason**.
-5. Confirm the disclaimer text to the subscriber and select **submit**. You will see the scheduled transfer in the **scheduled stops/starts** grid.
+1. Select the **permanent stop** button.
+2. Choose a cancellation **reason** from the drop-down list. _Reasons are configurable_?
+3. Read the **benefits section** to the subscriber. If the subscriber agrees to the suggested solution, select **helpful: yes** and stop this procedure. Otherwise, select **helpful: no** and continue to the next step.
+4. Present the offer(s) to the subscriber. If the subscriber agrees to an offer, select **helpful: yes** and stop this procedure. Otherwise, select **helpful: no** and continue to the next step.
+5. Read the displayed message to the subscriber and choose when to stop the subscription. If scheduling for a future date, select a date.
+6. Confirm the disclaimer text to the subscriber and select **submit**. You will see the scheduled stop in the **scheduled stops/starts** grid. **Note**: if the stop is immediate, it will be non-editable.
 
-See also: [permanent stop](example.com), [temporary stop](example.com)
+(GIF OF PROCESS)
+
+See also: [temporary stop](example.com), [vacation delivery](example.com)
 
 
 <br><br><br><br><br><br><br><br><br><br>
