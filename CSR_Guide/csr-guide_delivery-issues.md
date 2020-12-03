@@ -8,6 +8,7 @@ This guide explores the **complaints** tab, which displays information about del
 
 This guide also contains instructions for creating new complaints and adding delivery messages.
 
+
 ### Navigation
 
 To view the **complaints** tab, perform a [subscription search](www.example.com), and then select the **complaints** tab.
@@ -20,13 +21,12 @@ The **add new delivery error** feature allows you to process subscriber complain
 
 (SCREEN W/ ANNOTATIONS OF REDELIVERY WINDOW AND SOLUTION)
 
-### Reference
-
 This feature is highly configurable and clients define their own rules.
-Familiarization with a client's particular rules is necessary to determine a correct solution.
 This [workflow](example.com) is a supplement to this guide and can help determine when to record and process complaints.
 
-Some key information:
+### Helpful Information
+
+Here are some helpful pointers for recording and processing complaints.
 
 - Subscribers cannot make complaints before the redelivery window on the same day. They can inside or after the redelivery window.
 - Subscriber's cannot make complaints during vacation days.

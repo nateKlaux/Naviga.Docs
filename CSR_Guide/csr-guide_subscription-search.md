@@ -2,7 +2,7 @@
 
 This tutorial will introduce you to the **Subscription Search** feature of the Subcon Admin Portal. **Subscription Search** allows you to manage subscription/subscriber information.
 
-## Find a subscription
+## Find a Subscription
 
 To find a particular subscription:
 
@@ -11,7 +11,6 @@ To find a particular subscription:
 3. Select the **search** button.
 A list of matches will display.
 4. Find the desired subscription from the **search results** and select either **research** or **start call**
-
 
 > [!TIP] Though including `client` in your search query can be helpful, you cannot search by it exclusively.
 > Attempting to do so will return an error, and the mandatory fields will be highlighted.
@@ -22,8 +21,8 @@ A list of matches will display.
 
 ### Research
 
-The **research** feature displays read-only subscription information quickly, allowing you to verify the subscription you are looking for.
-This feature does not start a session.
+The **research** feature displays read-only subscription information. You can view account information, digital subscription information, as well as allow you to search the account's history of events.
+This feature does not start a call.
 
 ### Start Call
 
@@ -32,18 +31,12 @@ You can process requests, update information, review events, etc.
 Likely, you will find yourself using this feature in most scenarios.
 By default, the feature displays the [account information](www.example.com) tab.
 
-**Note**: Upon selecting start call, the application may prompt you to confirm the subscriber’s registered email address. The registered email address is different than a subscription email address. A subscriber uses the registered email to access digital subscriptions, and may or may not be the subscription email address.
-
-(I think I should flesh this out more. Just unsure of why )
+**Note**: The client can configure whether the **start call** feature prompts you to confirm a subscriber's email address. You can either enter a new email (`other`), select a registered email from the drop-down menu, or choose `no email`. The email address you choose (new or registered) will become the selected email _for this call_. This email address will be recorded in the event log and will receive a confirmation of events that occurred during the call.
 
 ### End Call
 
 To end a call, select the **end call** button in the upper right corner of any tab.
 **Note**: If you don't deliberately end a call (with the **end call** button), after _<X<X>>_ hours the call automatically ends.
-
-### Create a New Account
-
-You can create a new account by selecting the **+ add account and start call** button. View [this guide](example.com) for further information.
 
 ## Query Parameter Definitions
 
@@ -58,3 +51,4 @@ You can create a new account by selecting the **+ add account and start call** b
 | Last name | Subscription holder's last name. |
 | First name | Subscription holder's first name. |
 
+See also: [create new account](example.com), [email address types](example.com)
