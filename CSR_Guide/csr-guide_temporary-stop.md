@@ -19,6 +19,7 @@ For example:
     > `Sun for Mon | 07:00 PM Sun` translates to `For a Monday stop, the cutoff must occur by 7:00 PM Sunday`.
 - **Reason**, **hold**, and **donation options** come in real-time from a circulation database.
 - Some common **hold options** are `VacPack`, `credit`, and `donation`. `VacPack` refers to a vacation package where the subscription will be delivered after the vacation. Sometimes `donation` allows the subscriber to specify *where* a donation goes. `Credit` extends the subscription's expiry date in accordance with the number of paused days.
+- This [workflow](example.com) can help determine how and when to process temporary stops.
 
 ### Create a Temporary Stop
 

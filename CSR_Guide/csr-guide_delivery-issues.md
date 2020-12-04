@@ -22,7 +22,7 @@ The **add new delivery error** feature allows you to process subscriber complain
 (SCREEN W/ ANNOTATIONS OF REDELIVERY WINDOW AND SOLUTION)
 
 This feature is highly configurable and clients define their own rules.
-This [workflow](example.com) is a supplement to this guide and can help determine when to record and process complaints.
+This [workflow](example.com) can help determine when to record and process complaints.
 
 ### Helpful Information
 

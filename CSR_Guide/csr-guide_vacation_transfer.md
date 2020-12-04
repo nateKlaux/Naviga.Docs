@@ -1,4 +1,4 @@
-## Temporary Vacation Transfer
+## Vacation Transfer
 
 This feature allows you to temporarily change a print subscription's delivery address.
 
@@ -17,6 +17,7 @@ Here are some helpful pointers when creating or updating vacation transfers.
 - Transfers must comply with the **vacation cut-off times** table.
     > For example, `Sun for Mon | 07:00 PM Sun` translates to `For a Monday transfer, the cutoff must occur by 7:00 PM Sunday`.
 - If the temporary delivery address is within a delivery route, a carrier will deliver the subscription per usual. Otherwise, the subscription will ship via mail and may lead to a later delivery.
+- This [workflow](example.com) can help determine how and when to process vacation transfers.
 
 ### Create a vacation transfer
 

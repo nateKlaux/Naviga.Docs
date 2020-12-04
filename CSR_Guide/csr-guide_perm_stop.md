@@ -14,9 +14,10 @@ You can find this feature under the **stop tab**. To navigate here, perform a [s
 
 Here are some helpful pointers when creating or updating permanent stops.
 
-- When creating a permanent stop, you will work through the **stop saver** workflow with the subscriber. **Stop saver** includes three steps (`1. Benefit Section`, `2. Stop Saver Offer`, `3. Stop Subscription`). These steps help stop a cancellation. **Stop Saver** is configurable in the Subscribe database. Clients must follow submit a **Stop Saver Rules** document that details their preferences.
+- When creating a permanent stop, you will work through the **stop saver** workflow with the subscriber. **Stop saver** includes three steps (`1. Benefit Section`, `2. Stop Saver Offer`, `3. Stop Subscription`). These steps help stop a cancellation. **Stop Saver** is configurable in the Subscribe database. Clients must submit a **Stop Saver Rules** document that details their preferences.
 - **Note**: the **stop saver** feature will not appear for some reason types (e.g. `deceased`, `office use only`, etc.) These options are configurable in the Subscribe database.
 - **Reason options** come in real-time from a circulation database.
+- This [workflow] can help determine how and when to process permanent stops.
 
 ### Create a Permanent Stop
 
@@ -46,7 +47,7 @@ You can only update permanent stops with `stop types` values of `NextBillingCycl
 To update a permanent stop:
 
 1. Navigate to the **scheduled stops/starts** grid.
-2. Select the **change** button next to the corresponding permant stop.
+2. Select the **change** button next to the corresponding permanent stop.
 3. Update the **stop type**, **stop date**, and **reason**. The **stop date** can updated only when you choose a **stop type** value of `Specific Date`.
 4. Select **submit**. The update is processed in real-time with the circulation system.
 

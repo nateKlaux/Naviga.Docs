@@ -1,6 +1,6 @@
-## Subscription Search Tutorial
+## Subscription Search
 
-This tutorial will introduce you to the **Subscription Search** feature of the Subcon Admin Portal. **Subscription Search** allows you to manage subscription/subscriber information.
+This guide will introduce you to the **Subscription Search** feature of the Subcon Admin Portal. **Subscription Search** allows you to search for and manage subscriptions.
 
 ## Find a Subscription
 
@@ -21,8 +21,7 @@ A list of matches will display.
 
 ### Research
 
-The **research** feature displays read-only subscription information. You can view account information, digital subscription information, as well as allow you to search the account's history of events.
-This feature does not start a call.
+The **research** feature displays read-only overview of the subscription. You can view account information, digital subscription information, and search the account's history of events, filtering the events by type and time. This feature does not start a call.
 
 ### Start Call
 
