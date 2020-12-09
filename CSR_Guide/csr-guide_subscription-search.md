@@ -21,7 +21,7 @@ A list of matches will display.
 
 ### Research
 
-The **research** feature displays read-only overview of the subscription. You can view account information, digital subscription information, and search the account's history of events, filtering the events by type and time. This feature does not start a call.
+The **research** feature displays a read-only overview of the subscription. You can view account information, digital subscription information, and search the account's history of events, filtering the events by type and time. This feature does not start a call.
 
 ### Start Call
 
@@ -50,4 +50,4 @@ To end a call, select the **end call** button in the upper right corner of any t
 | Last name | Subscription holder's last name. |
 | First name | Subscription holder's first name. |
 
-See also: [create new account](example.com), [email address types](example.com)
+See also: [create a new account](example.com)

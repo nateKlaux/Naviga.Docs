@@ -19,7 +19,7 @@ Here are some helpful pointers when creating or updating vacation transfers.
 - If the temporary delivery address is within a delivery route, a carrier will deliver the subscription per usual. Otherwise, the subscription will ship via mail and may lead to a later delivery.
 - This [workflow](example.com) can help determine how and when to process vacation transfers.
 
-### Create a vacation transfer
+### Create a Vacation Transfer
 
 To create a vacation transfer:
 
@@ -29,7 +29,7 @@ To create a vacation transfer:
 4. Select a **transfer reason**.
 5. Confirm the disclaimer text to the subscriber and select **submit**. You will see the scheduled transfer in the **scheduled stops/starts** grid. The vacation transfer is processed in real-time with the circulation system.
 
-### Update or cancel a vacation transfer
+### Update or Cancel a Vacation Transfer
 
 If a vacation transfer has already been created, you can only update the dates (and not the address). To update the address, cancel the initial vacation transfer and start anew.
 
@@ -39,7 +39,7 @@ To cancel a vacation transfer:
 2. Select the **cancel** button next to the corresponding vacation transfer.
 3. Confirm you want to delete the record and select **OK**. The cancellation is processed in real-time with the circulation system.
 
-To update a temporary stop:
+To update a vacation transfer:
 
 1. Navigate to the **scheduled stops/starts** grid.
 2. Select the **change** button next to the corresponding vacation transfer. The **change vacation transfer** function appears.

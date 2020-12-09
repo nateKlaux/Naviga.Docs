@@ -29,7 +29,7 @@ This [workflow](example.com) can help determine when to record and process compl
 Here are some helpful pointers for recording and processing complaints.
 
 - Subscribers cannot make complaints before the redelivery window on the same day. They can inside or after the redelivery window.
-- Subscriber's cannot make complaints during vacation days.
+- Subscribers cannot make complaints during vacation days.
 
 ### Record a complaint
 
@@ -62,7 +62,7 @@ This feature allows you to create customized, real-time messages for carriers an
 
 > [!Note] The message/instruction is added into the circulation system in real-time. It may take up to 24 hours to reflect the added message on the screen
 
-### Carrier and District Manager Messages
+### Create Carrier and District Manager Messages
 
 Message types are configurable and add context to the message (e.g. a message concerning the `route` or `ZIP code`).
 The maximum message length is 140 characters.
@@ -77,7 +77,7 @@ To create a carrier or district manager message:
 
 (GIF)
 
-### Permanent Delivery Messages
+### Create Permanent Delivery Message
 
 This feature creates permanent, placement instructions (e.g. `door delivery` or `double bag when wet`). Only _one_ permanent message is allowed per account, and the message options are predetermined.
 
@@ -86,10 +86,11 @@ To create a permanent delivery message:
 1. Select the **add new** button within the `Permanent delivery messages` grid.
 2. Choose a date and message from the drop-down menu.
 3. Select **save**.
-4. Confirm your message and select **OK**.
+4. Confirm your message and select **OK**. Messages can be updated or removed after the next publishing date.
+
 (GIF)
 
-### Delivery Instructions and Directions
+### Create Delivery Instructions and Directions
 
 These are editable text boxes that you can use to create general carrier notes (e.g. "Corner of Melrose and 1st St" or "backhouse").
 The maximum message length is 140 characters.
