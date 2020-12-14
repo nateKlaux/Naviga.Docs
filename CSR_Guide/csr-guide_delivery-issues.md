@@ -35,7 +35,7 @@ Here are some helpful pointers for recording and processing complaints.
 
 To record a complaint:
 
-1. Select the **calendar icon** and choose a complaint date.
+1. Select the **calendar icon** and choose choose the complaint date(s).
 The client determines the number of days back, as well as the number of complaints you can select.
 2. Select an **error type** that corresponds with the subscriber's complaint.
 Use your best judgment to match the subscriber's issue with an error from the drop-down field.
@@ -48,9 +48,9 @@ To choose `Redelivery`, the complaint must *not* have been made before the redel
 
 ### Subscription Complaint History
 
-The **complaints** table at the top of the page displays a history of subscription complaints.  The table displays the following categories: `Transaction ID`, `Incident date`, `Complaint description`, `Complaint option`, `Credit value`, and `Escalated`. Any new complaints will appear here.
+The **complaints** grid at the top of the page displays a history of subscription complaints. Any new complaints will appear here, and will be sorted by their incident date. Clients can configure the number of complaints to display.
 
-An escalation status of `yes` occurs when a certain number of complaints are created within a certain amount of days. Both the number of complaints and the number of days is client configurable.  
+The table displays the following categories: `Transaction ID`, `Incident date`, `Complaint description`, `Complaint option`, `Credit value`, and `Escalated`. An escalation status of `Yes` occurs when a certain number of complaints are created within a certain amount of days. Both the number of complaints and the number of days is client configurable.
 
 ## Add Delivery Messages and Instructions
 

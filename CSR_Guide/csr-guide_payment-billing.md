@@ -4,7 +4,8 @@ This guide explores the payment and billing management functionality of the SubC
 
 - view a subscription's billing status, saved payment methods, and transactions
 - make payments and update payment methods
-- enroll/unenroll subscriptions into automatic renewal (auto-renew)
+- enroll subscriptions into automatic renewal (auto-renew)
+- switch auto-renew subscriptions back into invoices
 - enroll/unenroll subscriptions into an electronic bill (eBill)
 
 Tip: To quickly show an accounts current balance, select the show balance button in the upper right corner. If the displayed number is negative, the account is past due.
@@ -49,7 +50,7 @@ The values come in real-time from the circulation system.
 |-|-|
 | Amount | The total amount of the transaction. |
 | Transaction type | Indicates whether the transaction is auto-renew (`AutoPay`), a one-time payment (`Payment`), or a declined payment (`PymtDecline`).  |
-| Payment method | Indicates whether the payment method was a `Bank Account` or `Credit Card`. |
+| Payment method | Indicates whether the payment method was `Bank Account`, `Credit Card`, `Check` or `Cash`. |
 | Status | Indicates whether the payment was completed (`Captured`) or declined (`Declined`).  |
 | Add date | The date the transaction was made. |
 | Details | Select this icon to view detailed transaction information.  |
@@ -68,6 +69,8 @@ The values come in real-time from the circulation system.
 | Adjustment amount | A credit or debit made to the account’s balance but unrelated to the subscription cost (e.g. an activation fee). There can be multiple fees. Only the total displays. **Note**: This value will only be included in the total amount _if_ cash flag = `Yes` in the circulation system. |
 | Coupon amount | A percent or flat amount reduction off the price of a subscription indicated by a detachable voucher. **Note**: This value is _not_ included in the total amount. |
 | Discount | The difference in price from the immediately previous transaction. |
+| Bank name | The name of the subscriber's bank. Note: This field only appears if payment method is `Check`. |
+| Check number | The check number of the particular payment. Note: This field only appears if payment method is `Check`. |
 
 ### Payments
 
@@ -139,7 +142,7 @@ To enroll a subscription for an eBill:
 
 #### Update an eBill email address
 
-Once a subscription has been enrolled into eBill, the corresponding email address can be updated in the **status details** section. Select the field in the eBill row and enter a new email address. Any change will occur in real-time.
+Once a subscription has been enrolled into eBill, the corresponding email address can be updated in the **status details** section. Select the pencil icon the eBill row and enter a new email address. Any change will occur in real-time.
 
 #### Unenroll from an eBill
 
