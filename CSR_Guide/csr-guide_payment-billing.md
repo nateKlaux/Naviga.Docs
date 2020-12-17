@@ -4,9 +4,9 @@ This guide explores the payment and billing management functionality of the SubC
 
 - view a subscription's billing status, saved payment methods, and transactions
 - make payments and update payment methods
-- enroll subscriptions into automatic renewal (auto-renew)
+- opt subscriptions into automatic renewal (auto-renew)
 - switch auto-renew subscriptions back into invoices
-- enroll/unenroll subscriptions into an electronic bill (eBill)
+- opt subscriptions into/out of an electronic bill (eBill)
 
 Tip: To quickly show an accounts current balance, select the show balance button in the upper right corner. If the displayed number is negative, the account is past due.
 
@@ -25,7 +25,6 @@ The **status details** section of this tab displays information about a subscrip
 | Auto-renew | Indicates whether the subscription is enrolled in automatic payment renewal. Values can be either `Yes` or `No`. | Subscribe |
 | Payment method type | The payment method used for the last transaction (e.g. `CreditCard` or `BankDraft`) **Note**: Will not display if subscription is enrolled in auto-renew. | Circulation |
 | Current payment method | The last four digits of the payment's account number. **Note**: will only display if subscription is enrolled in auto-renew. | Circulation |
-| Paid through date | The date through which the subscription has been paid (`MM-DD-YYYY`). **Note**: Currently, paid through date and expiration date will always be the same. | Subscribe |
 | Expiration date | The date at which the subscription expires (`MM-DD-YYYY`). **Note**: Currently, paid through date and expiration date will always be the same. | Subscribe |
 | eBill | Indicates whether the subscription is enrolled in an electronic/paperless billing system. If so, the email address that is invoiced will display here. | Subscribe |
 
@@ -69,8 +68,9 @@ The values come in real-time from the circulation system.
 | Adjustment amount | A credit or debit made to the account’s balance but unrelated to the subscription cost (e.g. an activation fee). There can be multiple fees. Only the total displays. **Note**: This value will only be included in the total amount _if_ cash flag = `Yes` in the circulation system. |
 | Coupon amount | A percent or flat amount reduction off the price of a subscription indicated by a detachable voucher. **Note**: This value is _not_ included in the total amount. |
 | Discount | The difference in price from the immediately previous transaction. |
-| Bank name | The name of the subscriber's bank. Note: This field only appears if payment method is `Check`. |
+| Bank name | The name of the subscriber's bank. Note: This field only appears if payment method is `Check` or `Bank`. |
 | Check number | The check number of the particular payment. Note: This field only appears if payment method is `Check`. |
+| Bank number | The bank number of the particular payment. Note: This field only appears if payment method is `Bank`. |
 
 ### Payments
 
@@ -78,7 +78,7 @@ The values come in real-time from the circulation system.
 
 You can make one-time payments only on subscriptions not currently enrolled in auto-renew.
 
-You can only make one payment every 24 hours. 
+You can only make one payment every 24 hours.
 
 To make a payment:
 
@@ -91,11 +91,11 @@ To make a payment:
 
 ### Auto-renew
 
-#### Enroll in auto-renew
+#### Opt into auto-renew
 
-You cannot enroll a subscription into auto-renew if a payment has been made in the last 24 hours.
+You cannot opt a subscription into auto-renew if a payment has been made in the last 24 hours.
 
-To enroll a subscription into auto-renew:
+To opt a subscription into auto-renew:
 
 1. Select the **auto-renew sign up** button. The sign up form appears.
 2. Confirm a payment term with subscriber. `Term` is the number of weeks per billing cycle. `Total payment` is the amount due today.
@@ -106,7 +106,7 @@ The new payment method will appear in the saved payment methods grid after selec
 
 #### Update a payment method
 
-You can update the payment methods only of subscriptions enrolled in auto-renew. 
+You can update the payment methods only of subscriptions in auto-renew. 
 
 This feature allows you to update a payment method (e.g. switching credit cards) or change a payment method (e.g. switch from a credit card to a bank account). 
 
@@ -130,11 +130,11 @@ To switch to invoices:
 
 ### eBill
 
-#### Enroll for an eBill
+#### Opt into an eBill
 
-You cannot enroll subscriptions for an eBill if they are enrolled in auto-renew.
+You can opt subscriptions into an eBill only if they are not enrolled in auto-renew.
 
-To enroll a subscription for an eBill:
+To opt a subscription into an eBill:
 
 1. Select the **eBill sign up** button. The sign up form appears.
 2. Verify the email address. If a subscription email is recorded, that will automatically populate here.
@@ -142,11 +142,11 @@ To enroll a subscription for an eBill:
 
 #### Update an eBill email address
 
-Once a subscription has been enrolled into eBill, the corresponding email address can be updated in the **status details** section. Select the pencil icon the eBill row and enter a new email address. Any change will occur in real-time.
+Once a subscription has opted into an eBill, the corresponding email address can be updated in the **status details** section. Select the pencil icon the eBill row and enter a new email address. Any change will occur in real-time.
 
-#### Unenroll from an eBill
+#### Opt out of an eBill
 
-To unenroll a subscription from an eBill:
+To opt a subscription out of an eBill:
 
 1. Select the **cancel eBill** button. 
 2. Confirm your decision and select **OK**. This request is processed in real-time with the circulation system. The email address will be removed from the eBill field under **Status Details**.

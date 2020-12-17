@@ -6,7 +6,7 @@ This guide explores address management features of the SubCon Admin Portal. It d
 - update a billing address
 - cancel a scheduled address change
 
-**Note**: If a subscriber only has a digital subscription, then only a billing address will display.
+**Note**: You cannot add or update the billing address of digital subscriptions in this release.
 
 This [workflow](example.com) provides a visual representation.
 
@@ -21,7 +21,7 @@ To update a billing address:
 1. Select the **edit** button under the billing address column.
 2. Enter the new values for each section of the billing address.
 3. Select the calendar icon and choose a date for when the address change should occur.
-4. Confirm whether the subscriber wishes to apply the change to the delivery address. If so, check the box and confirm the disclaimer. Otherwise, skip this step.
+4. Confirm whether the subscriber wishes to apply the change to delivery address. If so, confirm the address is deliverable, check the box, then confirm the disclaimer. Otherwise, skip this step.
 5. Select **save**. The change is processed in real-time with the circulation system and the address change appears in the **scheduled address change** grid.
 
 ### Update a delivery address

@@ -1,4 +1,4 @@
-## Show Events and Show Access Events
+## Show Events and Access Events
 
 This guide explores the **show events** and **show access events** buttons of the Subscription Search feature.
 
@@ -10,7 +10,7 @@ In the search results, select the details icon to view detailed information abou
 
 | Term | Description |
 |-|-|
-| Event ID | The event's identification number. |
+| Event ID | The event’s identification number within the Subscribe database. |
 | Transaction Date | The date and time at which the event occurred. |
 | Publication | The name of the publication that the event is associated with. |
 | Description | The event's name. |
