@@ -131,4 +131,4 @@ Congratulations! You have added an offer to the Solicitor Concierge. Now your of
 
 ## What You have learned
 
-Congratulations! You have added an offer to the Solicitor Concierge. Now your offer will appear when you walk a customer through the Stop Saver feature of the **complaints** tab. Be sure to add each Business Rule segment you've added to the Solicitor Concierge.
+Congratulations! You have added an offer to the Solicitor Concierge. Now your offer will appear when you walk a customer through the Stop Saver feature of the **stop** tab. Be sure to add each Business Rule segment you've added to the Solicitor Concierge.
