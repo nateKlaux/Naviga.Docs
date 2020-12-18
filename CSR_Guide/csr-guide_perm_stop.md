@@ -26,8 +26,9 @@ To create a permanent stop:
 1. Select the **permanent stop** button.
 2. Choose a cancellation **reason** from the drop-down list.
 3. Read the **benefits section** to the subscriber. If the subscriber agrees to the suggested solution, select **helpful: yes** and stop this procedure. Otherwise, select **helpful: no** and continue to the next step.
-4. Present the offer(s) to the subscriber. If the subscriber agrees to an offer, select **helpful: yes** and stop this procedure. Otherwise, select **helpful: no** and continue to the next step. If a subscriber agrees to an offer (typically a downgrade), the updated offer is processed in real-time with the circulation system.
-5. Read the displayed message to the subscriber and choose when to stop the subscription, immediately, at the next billing cycle, or on a specific date. If scheduling for a future date, select a date. **Note**: if the subscription is in grace, the end date will be immediate.
+4. Present the offer(s) to the subscriber. If the subscriber agrees to an offer, select it, choose when to implement the offer (`Change Immediately`, `Change Next Billing Cycle`, `Schedule Change`), then select **helpful: yes** to confirm the change. End the procedure. The updated offer is processed in real-time with the circulation system.
+Otherwise, select **helpful: no** and continue to the next step.
+5. Read the displayed message to the subscriber and choose when to stop the subscription (`Change Immediately`, `Change Next Billing Cycle`, `Schedule Change`). If scheduling for a future date, select a date. **Note**: if the subscription is in grace, the end date will be immediate.
 6. Confirm the disclaimer text to the subscriber and select **submit**. The permanent stop is processed in real-time with the circulation system.
 
 ### Cancel a Permanent Stop
