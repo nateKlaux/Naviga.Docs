@@ -56,7 +56,7 @@ To remove a pending user:
 |-|-|
 | Login name | The user's login name, typically (always?) the user's registered email address. |
 | State | State refers to ?? e.g. `standard` |
-| Type | Either `owner` or `???`. Indicates the amount of access the user has. |
+| Type | Either `owner` or `Guest`. Indicates the amount of access the user has. |
 | Change date | The date and time the change occurred (or user was added?) (`MM-DD-YYYY HH-MM-SS AM/PM`) |
 
 Select the **details** button to view the **manage registration** grid.
@@ -67,7 +67,7 @@ Select the **details** button to view the **manage registration** grid.
 | Subscriber | The subscriber's Naviga Subscriber identification number. |
 | Full name | The subscriber's full name. |
 | Active | Indicates whether the account is active. |
-| Type | Indicates the type of access the user has. `Owner` = full, `???` = limited. |
+| Type | Indicates the type of access the user has. `Owner` = full, `Guest` = limited. |
 | Address | The subscriber's billing address. |
 
 ### Entitlements grid (COMPLETE THIS)

@@ -8,7 +8,7 @@ This guide explores the payment and billing management functionality of the SubC
 - switch auto-renew subscriptions back into invoices
 - opt subscriptions into/out of an electronic bill (eBill)
 
-Tip: To quickly show an accounts current balance, select the show balance button in the upper right corner. If the displayed number is negative, the account is past due.
+**Tip**: To quickly show an accounts current balance, select the show balance button in the upper right corner. If the displayed number is negative, the account is past due.
 
 ### Navigation
 
@@ -16,7 +16,9 @@ To view the **payment/billing** tab, perform a [subscription search](www.example
 
 (GIF OF PROCESS)
 
-### Status Details
+### Grids
+
+#### Status Details
 
 The **status details** section of this tab displays information about a subscription's status. These values are processed in real-time. The source column indicates which database the values come from, either Subscribe or Circulation.
 
@@ -28,7 +30,7 @@ The **status details** section of this tab displays information about a subscrip
 | Expiration date | The date at which the subscription expires (`MM-DD-YYYY`). **Note**: Currently, paid through date and expiration date will always be the same. | Subscribe |
 | eBill | Indicates whether the subscription is enrolled in an electronic/paperless billing system. If so, the email address that is invoiced will display here. | Subscribe |
 
-### Saved Payment Methods
+#### Saved Payment Methods
 
 The **saved payment methods** grid displays a subscription's saved payment methods. The values come in real-time from the circulation system.
 
@@ -37,7 +39,7 @@ The **saved payment methods** grid displays a subscription's saved payment metho
 | Payment method type | Indicates the type of saved payment method (e.g., `CreditCard` or `BankDraft`).
 | Account number | Either the credit card or bank draft's account number. |
 
-### Subscription Financial Transactions
+#### Subscription Financial Transactions
 
 The **subscription financial transactions** grid displays a subscription's transaction history. Use the drop-down menu to apply length filters. Select the icon in the details column to view detailed transaction information.
 
