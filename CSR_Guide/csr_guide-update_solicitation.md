@@ -9,6 +9,7 @@ You can manage a subscriber's solicitation preference in the **account informati
 ### Navigation
 
 To view the **account information** tab, perform a [subscription search](www.example.com), and then select the **account information** tab. Select the **account update** button to display a subscription's solicitation preferences.
+(GIF OF PROCESS)
 
 ### Add a new solicitation preferences
 
@@ -17,7 +18,7 @@ After selecting the **account update** button:
 1. Select a **type**, then select **add new**.
 2. Select a **category** to change the solicitation preference. `TMC` refers to telemarketing.
 3. Choose a **stop date**. (Optionally, choose a **resume date**. If left blank, the subscriber is added to the list indefinitely.)
-4. If desired, leave a remark in the text field (100 characters). Select **submit**. The request is processed in real-time with the circulation system. The subscriber's solicitation preference is removed, but a record remains in the **account update** grid.
+4. If desired, leave a remark in the text field (100 characters). Select **submit**. The request is processed in real-time with the circulation system. The subscriber's solicitation preference is removed, but a record remains in the **account update** grid as an audit trail.
 
 ### Change a solicitation preference
 
