@@ -1,15 +1,16 @@
 ## Redirect to classic portal
 
-For any features not yet implemented in the _CSR Portal_, you can use the **lookup classic portal** button to navigate to the classic portal.
+For any features not yet supported in the _CSR Portal_, you can use the **lookup classic portal** button to navigate to the classic portal.
 
 ### Prerequisites
 
 Before you can redirect to the classic portal, complete the following prerequisites:
 
-- Configure NCS to support the CTI API. Provide the API URL to Naviga for implementation.
-- Submit database names to Naviga for implementation.
-- Establish a reference between the classic portal and the CSR portal. Instructions for this task are below.
-- Log into both instances _before_ selecting the **lookup classic portal** button.
+1. Configure NCS to support the CTI API. Provide the API URL to Naviga for implementation.
+2. Submit database names to Naviga for implementation.
+3. Reach out to Naviga Implementation Manager to get this implemented in your environment.
+4. Establish a reference between the classic portal and the CSR portal. Instructions for this task are below.
+5. Log into both instances *before* selecting the **lookup classic portal** button.
 
 To establish a reference between the classic portal and the CSR portal: 
 - Configure usernames and `KeyID` in all NCS Circ instances.
