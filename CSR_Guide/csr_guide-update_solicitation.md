@@ -49,7 +49,7 @@ The **accounted update** grid displays all of a subscription's solicitation pref
 | Stop date | The date when the solicitation preference begins (`MM-DD-YYYY`). |
 | Resume date | The date when the solicitation preference ends (`MM-DD-YYYY`). Note:This field is optional. A solicitation preference can continue indefinitely. |
 | Remarks | Any comments a CSR or subscriber left. |
-| Change date | The date when the solicitation preference was created (`MM-DD-YYYY`). |
+| Change date | The date when the solicitation preference record was created or changed. (`MM-DD-YYYY`). |
 
 > [!NOTE]
 > The information displayed in this tab returns in real-time from our circulation databases.
