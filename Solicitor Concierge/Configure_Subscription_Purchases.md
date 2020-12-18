@@ -83,7 +83,7 @@ Congratulations! You've added a start-and-bill Subscription Purchase in the Soli
 
 ## Complimentary Subscription Purchase
 
-A complimentary Subscription Purchase does not require the subscriber to provide payment information, and no payment is required. Instead, the payment method is marked as either `Paid Comp` or `UnPaid Comp` and has no rate code.
+A complimentary Subscription Purchase does not require the subscriber to provide payment information or a payment. Instead, the payment method is marked as either `Paid Comp` or `UnPaid Comp` and has no rate code.
 
 ### Goal
 
@@ -116,7 +116,7 @@ Congratulations! You've added a complimentary Subscription Purchase in the Solic
 
 ## Campaign-code Subscription Purchase
 
-A campaign-code Subscription Purchase minimizes the amount of data you need to enter. Instead of entering repeated data, a single campaign code sent to the circulation database will automatically understand the rate code, term, and length of a subscription.
+A campaign-code Subscription Purchase minimizes the amount of data you need to enter. Instead of entering circulation specific data (rate code, term, length, etc.), a single campaign code is sufficient.
 
 ### Goal
 
