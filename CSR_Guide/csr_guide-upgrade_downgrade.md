@@ -9,13 +9,15 @@ You can manage a subscriber's product from the **offers** tab. From this tab, yo
 
 To view the **offers** tab, perform a [subscription search](www.example.com), and then select the **offers** tab.
 
+(GIF OF PROCESS)
+
 ### Upgrade an subscription
 
 To upgrade a subscription:
 
 1. Select the **change offers** button. The **upgrades/downgrades** grid will appear.
 2. Select the **upgrades** tab and choose when to perform the upgrade: `Immediately`, `Next Publishing Date`, or `Select a date`. If selecting a date, use the calendar icon to pick a date.
-3. Choose an offer from the list. The arrow button expands to display more information about the offer. (If the upgraded offer requires a delivery address, address fields will appear. Fill them in.)
+3. Choose an offer from the list. The arrow button expands to display more information about the offer. (If the upgraded offer requires a delivery address or if the billing address is not routable, address fields will appear. Fill them in.)
 4. Confirm the disclaimer with the subscriber and check the disclaimer box.
 5. Select the **upgrade offer** button. The upgrade is processed in real-time with the circulation system.
 
@@ -25,17 +27,9 @@ To downgrade a subscription:
 
 1. Select the **change offers** button. The **upgrades/downgrades** grid will appear.
 2. Select the **downgrades** tab and choose when to perform the downgrade: `Immediately`, `Next Publishing Date`, or `Select a date`. If selecting a date, use the calendar icon to pick a date.
-3. Choose an offer from the list. The arrow button expands to display more information about the offer. (If the downgraded offer requires a delivery address, address fields will appear. Fill them in.)
+3. Choose an offer from the list. The arrow button expands to display more information about the offer.
 4. Confirm the disclaimer with the subscriber and check the disclaimer box.
 5. Select the **downgrade offer** button. The downgrade is processed in real-time with the circulation system.
-
-### Edit an upgrade/downgrade:
-
-If an upgrade/downgrade has not gone into effect, you can edit it by selecting the **edit** button in the **upgrades/downgrades** grid.
-
-### Cancel an upgrade/downgrade:
-
-If an upgrade/downgrade has not gone into effect, you can cancel it by selecting the **cancel** button in the **upgrades/downgrades** grid.
 
 ### Current products grid
 
@@ -50,13 +44,13 @@ If an upgrade/downgrade has not gone into effect, you can cancel it by selecting
 | Start date | Date of when subscriber began service (`MM-DD-YYYY`). |
 | Stop date | Date of when subscriber ended service (`MM-DD-YYYY`). |
 
-### Upgrades/downgrades grid
+### Upgrades/downgrades information
 
 | Term | Description |
 |-|-|
 | Offer ID | The offer's identification number. |
 | Internal name | The offer's internal description. |
-| Confirmation name | The offer's... ?? |
+| Confirmation name | The offer's confirmation name. |
 | EZ pay | Indicates whether the offer supports automatic renewal. |
 | Quantity | Indicates the number of products.  |
 | Title | In the expanded details, the name of the offer. |
