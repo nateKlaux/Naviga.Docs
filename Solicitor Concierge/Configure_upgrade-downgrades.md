@@ -2,7 +2,7 @@
 
 ## Goal
 
-The goal of this guide is help you configure the product upgrades and downgrades in the Solicitor Concierge portal. To configure your upgrades and downgrades, you must:
+The goal of this guide is to help you configure product upgrades and downgrades with Naviga. To configure your upgrades and downgrades, you must:
 
 - complete and submit the Business Rules Document
 - configure Solicitor Concierge
@@ -30,22 +30,22 @@ This translates to the following:
 
 If the newspaper is Milroy Area Appeal (`NewspaperID = 4`) with a rate between `$0 and $0.12` and scheduled for a 7 Day Delivery(`productID = 400002`), then offer a Sunday Only Delivery (`offerGroupID = 368`) with a segment name of `SaverPlus`.
 
-Use the following segment as a template, replacing with your information:
+Use the following segment as a template, and replace your information:
 
 `If NewspaperID = {X} and daily rate is between {$x.xx and $x.xx} AND base productID = {X}, offerGroupID = {X} and SegmentName = {SaverPlus}`
 
 > [!Tip]
-> You can create as many rules as you need to cover any type of scenario. The example here is expounds only on the price dimension, but you will probably want to extend your rules to cover many other scenarios. 
+> You can create as many rules as you need to cover any type of scenario. The example here expounds only on the price dimension, but you will probably want to extend your rules to cover many other scenarios.
 
 ### Outcome
 
 Congratulations! You have created your business rules. You must create business rules for all other scenarios. After you have created your rules, return them to your Naviga Implementation Manager.
 
-## Part 2 - Setup the offers in Solicitor Concierge
+## Part 2 - Configure the offers in Solicitor Concierge
 
 ### Goal
 
-The goal of Part 2 is to setup your offers in the Solicitor Concierge.
+The goal of Part 2 is to configure your offers in Solicitor Concierge.
 
 ### Add rules to Solicitor Concierge
 
