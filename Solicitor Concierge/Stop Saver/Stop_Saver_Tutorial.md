@@ -2,7 +2,7 @@
 
 ## Goal
 
-The goal of this guide is help you configure the **Stop Saver** feature in the CSR Portal. **Stop Saver** is a tool that helps reduce subscription cancellations by offering subscribers **Smart Offers**. These are alternative offers that you present to subscribers when they attempt to cancel their subscription.
+The goal of this guide is to help you configure the **Stop Saver** feature in the CSR Portal. **Stop Saver** is a tool that helps reduce subscription cancellations by offering subscribers **Smart Offers**. These are alternative offers that you present to subscribers when they attempt to cancel their subscriptions.
 
 To configure **Stop Saver**, you must:
 
@@ -41,7 +41,7 @@ Add this reason to the **Stop Saver Reasons** column in the Benefits Document.
 
 > [!Warning]
 > Some reasons will not prompt the **Stop Saver** feature.
-> Typically, these are reasons where a subscriber cannot continue, for example `Office Use` or `Deceased`. Customize these responses on Sheet 2 of the Benefits Document.
+> Typically, these are reasons where a subscriber cannot continue, for example, `Office Use` or `Deceased`. Customize these responses on Sheet 2 of the Benefits Document.
 
 ### Choose a Benefit Section dialogue
 
@@ -50,7 +50,7 @@ In the case of `Too Expensive`, we will respond with:
 
 ```I understand your money is tight. We have special offers for you at a lower price.```
 
-Add this dialogue to the **Benefit Section** column in the Benefits Document. It must be in the same row of the corresponding reason.
+Add this dialogue to the **Benefit Section** column in the Benefits Document. It must be in the same row as the corresponding reason.
 
 ### Choose a Stop Saver Smart Offer dialogue
 
@@ -60,7 +60,7 @@ In this scenario, we will use:
 
 ```Let me see what I can do to keep you as a subscriber. Here's what I can offer you:```
 
-Add this dialogue to the **Stop Saver Smart Offer** column in the Benefits Document. It must be in the same row of the corresponding reason.
+Add this dialogue to the **Stop Saver Smart Offer** column in the Benefits Document. It must be in the same row as the corresponding reason.
 
 ### Choose a Stop Subscription dialogue
 
@@ -70,7 +70,7 @@ In our scenario, we will respond with:
 
 ```I've taken care of your request. Should you change your mind, please be sure to call us or go online and see what specials we have for you.```
 
-Add this dialogue to the **Stop Subscription** column in the Benefits Document. It must be in the same row of the corresponding reason.
+Add this dialogue to the **Stop Subscription** column in the Benefits Document. It must be in the same row as the corresponding reason.
 
 (Image of a Row)
 
@@ -94,22 +94,22 @@ This translates to the following:
 
 If the newspaper is Milroy Area Appeal (`NewspaperID = 4`) with a rate between `$0 and $0.12` and scheduled for a 7 Day Delivery(`productID = 400002`), then offer a Sunday Only Delivery (`offerGroupID = 368`) with a segment name of `SaverPlus`.
 
-Use the following segment as a template, replacing with your information:
+Use the following segment as a template, and replace X with your information:
 
 `If NewspaperID = {X} and daily rate is between {$x.xx and $x.xx} AND base productID = {X}, offerGroupID = {X} and SegmentName = {SaverPlus}`
 
 > [!Tip]
-> You can create as many rules as you need to cover any type of scenario. The example here is expounds only on the price dimension, but you will probably want to extend your rules to cover many other scenarios. 
+> You can create as many rules as you need to cover any type of scenario. The example here expounds only on the price dimension, but you will probably want to extend your rules to cover many other scenarios. 
 
 ### Outcome
 
 Congratulations! You have created your business rules. You must create business rules for all other scenarios. After you have created your rules, return them to your Naviga Implementation Manager.
 
-## Part 3 - Setup the offers in Solicitor Concierge
+## Part 3 - Configure the offers in Solicitor Concierge
 
 ### Goal
 
-The goal of Part 3 is to setup your offers in the Solictor Concierge.
+The goal of Part 3 is to configure your offers in the Solicitor Concierge.
 
 ### Add rules to Solicitor Concierge
 
