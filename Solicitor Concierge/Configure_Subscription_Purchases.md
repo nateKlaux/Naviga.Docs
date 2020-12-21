@@ -83,7 +83,7 @@ Congratulations! You've added a start-and-bill Subscription Purchase in the Soli
 
 ## Complimentary Subscription Purchase
 
-A complimentary Subscription Purchase does not require the subscriber to provide payment information or a payment. Instead, the payment method is marked as either `Paid Comp` or `UnPaid Comp` and has no rate code.
+A complimentary Subscription Purchase does not require the subscriber to provide payment information or payment. Instead, the payment method is marked as either `Paid Comp` or `UnPaid Comp` and has no rate code.
 
 ### Goal
 
@@ -95,7 +95,7 @@ From the Solicitor Concierge dashboard:
 
 1. Select **offer groups** from the left sidebar. Your offer groups will appear in a list to the right.
 2. Select an offer group from the list, or create a new offer group.
-3. Select the **additonal options** category, then select the **payment method** drop-down menu.
+3. Select the **additional options** category, then select the **payment method** drop-down menu.
 4. Check the _billed_ box.
 5. Select the **coding** category, then select the **billing systems code** drop-down menu.
 6. Designate the **billing method** as either `Paid Comp` or `UnPaid Comp`.

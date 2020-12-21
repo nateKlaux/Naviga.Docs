@@ -10,7 +10,7 @@ To configure an activation fee, you must contact your Naviga Implementation Mana
 Configure an activation fee sales product in the Solicitor Concierge dashboard:
 
 1. Select **inventory**, then **products & bundles** from the left sidebar.
-2. Select the **sales** tab, select **edit** next to the corresponding sales product..
+2. Select the **sales** tab, select **edit** next to the corresponding sales product.
 3. Select the **billing products** field. A list of billing products will appear on the right. Drag the **activation fee** product into the **billing products** field.
 4. Select **save**.
 
