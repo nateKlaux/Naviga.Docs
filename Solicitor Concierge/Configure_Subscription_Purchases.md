@@ -9,7 +9,7 @@ The goal of this tutorial is to show you how to configure some of the Subscripti
 - complimentary Subscription Purchase
 - campaign code Subscription Purchase
 
-Navigate to your desired Subscription Purchase type to learn more.
+Navigate to your desired Subscription Purchase type to learn more. View this [workflow](example.com) for a visual representation.
 
 ## Before you start
 
@@ -41,10 +41,10 @@ From the Solicitor Concierge dashboard:
 
 From the CMS dashboard:
 
-1. Select **subscription panel** then **presentations**.
+1. Select **subscription panel** then **presentations**. Be sure to apply these changes to the newspaper level.
 2. Choose your desired presentation from the drop-down menu.
 3. Add the **Independent Address V3** as a child component to the **Step V3** component.
-4. Select **save**.
+4. Select **save** and clear your app's cache by selecting the manage cache button, then the relevant app.
 
 ### Outcome
 
@@ -72,10 +72,10 @@ From the Solicitor Concierge dashboard:
 
 From the CMS dashboard:
 
-1. Select **subscription panel** then **presentations**.
+1. Select **subscription panel** then **presentations**. Be sure to apply these changes to the newspaper level.
 2. Choose your desired presentation from the drop-down menu.
 3. Add the **Bill Me V3** as a child component to the **Payment Method V3** component.
-4. Select **save**.
+4. Select **save** and clear your app's cache by selecting the manage cache button, then the relevant app.
 
 ### Outcome
 
@@ -105,10 +105,10 @@ From the Solicitor Concierge dashboard:
 
 From the CMS dashboard:
 
-1. Select **subscription panel** then **presentations**.
+1. Select **subscription panel** then **presentations**. Be sure to apply these changes to the newspaper level.
 2. Choose your desired presentation from the drop-down menu.
 3. Add the **Bill Me V3** as a child component to the **Payment Method V3** component.
-4. Select **save**.
+4. Select **save** and clear your app's cache by selecting the manage cache button, then the relevant app.
 
 ### Outcome
 

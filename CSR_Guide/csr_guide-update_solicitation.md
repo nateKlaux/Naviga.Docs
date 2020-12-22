@@ -17,7 +17,7 @@ After selecting the **account update** button:
 
 1. Select a **type**, then select **add new**.
 2. Select a **category** to change the solicitation preference. `TMC` refers to telemarketing.
-3. Choose a **stop date**. (Optionally, choose a **resume date**. If left blank, the subscriber is added to the list indefinitely.)
+3. Choose a **stop date**. (Optionally, choose a **resume date**. If left blank, the subscriber is added to the list indefinitely.) New solicitation preferences cannot have overlapping dates and share a category.
 4. If desired, leave a remark in the text field (100 characters). Select **submit**. The request is processed in real-time with the circulation system. The subscriber's solicitation preference is removed, but a record remains in the **account update** grid as an audit trail.
 
 ### Change a solicitation preference
@@ -25,11 +25,11 @@ After selecting the **account update** button:
 After selecting the **account update** button:
 
 1. Select the **edit** button next to the corresponding solicitation preference.
-2. Change any of the following: **stop date**, **resume date**, **remarks**. If the preference has already begun, only **resume date** is editable.
+2. Change any of the following: **stop date**, **resume date**, **remarks**. If the preference has already begun, only the **resume date** and **remarks** fields are editable.
 3. Select **save**. The request is processed in real-time with the circulation system.
 
 > [!Note]
-> A solicitation preference's category (`do not call`, `do not email`, `do not TMC`) cannot be changed with the **edit** button. To change a category, delete the solicitation preference and add a new preference with the desired category.
+> A solicitation preference's category (`do not call`, `do not email`, `do not TMC`) cannot be changed with the **edit** button. To change a category, delete the solicitation preference, and add a new preference with the desired category.
 
 ### Delete a solicitation preference
 
@@ -47,7 +47,7 @@ The **accounted update** grid displays all of a subscription's solicitation pref
 |-|-|
 | Solicitation code | The code that corresponds to the solicitation preference's category (e.g. `NoEMail`, `NoCall`, `NoTMC`). These codes are configurable in the circulation database. |
 | Stop date | The date when the solicitation preference begins (`MM-DD-YYYY`). |
-| Resume date | The date when the solicitation preference ends (`MM-DD-YYYY`). Note:This field is optional. A solicitation preference can continue indefinitely. |
+| Resume date | The date when the solicitation preference ends (`MM-DD-YYYY`). Note: This field is optional. A solicitation preference can continue indefinitely. |
 | Remarks | Any comments a CSR or subscriber left. |
 | Change date | The date when the solicitation preference record was created or changed. (`MM-DD-YYYY`). |
 

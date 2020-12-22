@@ -1,4 +1,4 @@
-## Redirect to classic portal
+## Redirect to the classic portal
 
 For any features not yet supported in the _CSR Portal_, you can use the **lookup classic portal** button to navigate to the classic portal.
 
@@ -15,7 +15,7 @@ Before you can redirect to the classic portal, complete the following prerequisi
 To establish a reference between the classic portal and the CSR portal: 
 - Configure usernames and `KeyID` in all NCS Circ instances.
 - Add the CSR username to the Subscribe Portal.  
-- Add the NCS `KeyID` to the CSR username in Subscribe Portal:
+- Add the NCS `KeyID` to the CSR username in the Subscribe Portal:
    1. Select **users** in the CSR Portal.
    2. Select the pencil icon that corresponds to the desired username.
    3. Add the NCS `KeyID` in the **key id** field.

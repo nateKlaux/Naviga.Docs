@@ -11,7 +11,7 @@ To view the **offers** tab, perform a [subscription search](www.example.com), an
 
 (GIF OF PROCESS)
 
-### Upgrade an subscription
+### Upgrade a subscription
 
 To upgrade a subscription:
 
@@ -21,7 +21,7 @@ To upgrade a subscription:
 4. Confirm the disclaimer with the subscriber and check the disclaimer box.
 5. Select the **upgrade offer** button. The upgrade is processed in real-time with the circulation system.
 
-### Downgrade an subscription
+### Downgrade a subscription
 
 To downgrade a subscription:
 

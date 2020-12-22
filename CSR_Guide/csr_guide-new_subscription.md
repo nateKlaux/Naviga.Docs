@@ -21,11 +21,15 @@ After selecting the **+add account and start call** button:
 
 **Part 2** 
 
+The order in which information is collected depends on the presentation set up in the CMS.
+
 You will be taken to the **New Start Portal**. From this screen:
 
-1. Enter the subscriber's address information and select **continue**. Note: Only postal codes are required for ZIP-only subscriptions (i.e. no registration or other address information).
+1. Enter the subscriber's address information and select **continue**. Note: ZIP-only subscriptions will only require a postal code.
 2. Enter the subscriber's payment information and select **continue**. Payment information is not required for both complimentary and start-and-bill subscriptions.
 3. Confirm the subscriber’s address and payment information then select **place your order**.
+
+> [!Note] Registration is not created at this step. The subscriber does this on their own after logging in.
 
 See also: [Configure new starts in Solicitor Concierge](example.com)
 
