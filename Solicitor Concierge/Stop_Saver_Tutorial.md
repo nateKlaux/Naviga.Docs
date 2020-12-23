@@ -118,7 +118,7 @@ From the Solicitor Concierge dashboard:
 1. Select **Offer Groups** from on the left and choose an offer from the right. 
 2. Choose and offer from the right. If no offers currently exist, create a new one.
 3. Select the **coding** section.  Details will appear to the right.
-4. Choose **SmartOfferSegment** and check the box. 
+4. Choose **SmartOfferSegment** and check the smart offer box. 
 5. Select **StopSaver** from the **smart offer type** drow-down menu.
 6. Enter the segment name that you created in the Business Rules Document (e.g. `SaverPlus`). The segment name can be applied to all divisions, including specific divisions.
 7. Select **update** or **save as new**.
