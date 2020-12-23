@@ -32,7 +32,7 @@ You will be taken to the **New Start Portal**. From this screen:
 2. Enter the subscriber's payment information and select **continue**. Payment information is not required for both complimentary and start-and-bill subscriptions.
 3. Confirm the subscriber’s address and payment information then select **place your order**.
 
-> [!Note] This procedure is a best-practice example. The order in which a subscriber's payment information is collected may change, depending on how the client has configured their CMS.
+> [!Note] This procedure is a best-practice example. The order in which a subscriber's payment and address information is collected may change, depending on how the client has configured their CMS.
 
 See also: [Configure new starts in Solicitor Concierge](example.com)
 
