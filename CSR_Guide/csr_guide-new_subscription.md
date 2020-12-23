@@ -5,8 +5,11 @@ This guide describes and provides instructions for creating new subscriptions.
 ## Navigation
 
 This feature is found in the [subscription search](example.com) window. Navigate here and select the **+add account and start call** button to create new subscriptions.
+(SCREEN)
 
 ## Create a new subscription
+
+> [!NOTE] Account registration is not created at this step. The subscriber does this on their own via self-service or the publication's website.
 
 **Part 1**
 
@@ -25,11 +28,11 @@ The order in which information is collected depends on the presentation set up i
 
 You will be taken to the **New Start Portal**. From this screen:
 
-1. Enter the subscriber's address information and select **continue**. Note: ZIP-only subscriptions will only require a postal code.
+1. Enter the subscriber's address information and select **continue**. Note: Digital ZIP-only and digital subscriptions will require only a postal code.
 2. Enter the subscriber's payment information and select **continue**. Payment information is not required for both complimentary and start-and-bill subscriptions.
 3. Confirm the subscriber’s address and payment information then select **place your order**.
 
-> [!Note] Registration is not created at this step. The subscriber does this on their own after logging in.
+> [!Note] This procedure is a best-practice example. The order in which a subscriber's payment information is collected may change, depending on how the client has configured their CMS.
 
 See also: [Configure new starts in Solicitor Concierge](example.com)
 

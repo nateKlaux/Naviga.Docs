@@ -19,13 +19,13 @@ Make sure you meet the following pre-requisites before starting the tutorial ste
 - Have NCS Circ 2018.5 or above.
 - Reach out to a Naviga Implementation Manager to ensure Solicitor Concierge and CMS components are configured and structured properly.
 
-## ZIP-only Subscription Purchase
+## Digital ZIP-only Subscription Purchase
 
-A ZIP-only Subscription Purchase requires a subscriber to enter only a postal code (and not a complete address) while making a purchase.
+A Digital ZIP-only Subscription Purchase requires a subscriber to enter only a postal code (and not a complete address) while making a purchase.
 
 ### Goal
 
-The goal of this section is to explain how to configure a ZIP-only Subscription Purchase in Naviga's Solicitor Concierge and CMS dashboards.
+The goal of this section is to explain how to configure a Digital ZIP-only Subscription Purchase in Naviga's Solicitor Concierge and CMS dashboards.
 
 ### Solicitor Concierge setup
 
@@ -48,7 +48,7 @@ From the CMS dashboard:
 
 ### Outcome
 
-Congratulations! You've added a ZIP-only Subscription Purchase in the Solicitor Concierge and CMS dashboards.
+Congratulations! You've added a Digital ZIP-only Subscription Purchase in the Solicitor Concierge and CMS dashboards.
 
 ## Start-and-bill Subscription Purchase
 

@@ -1,6 +1,6 @@
 ## Manage Digital Subscriptions
 
-You can manage a subscriber's digital subscription from the **digital** tab. From this tab, you can:
+You can manage a subscriber's online access from the **digital** tab. From this tab, you can:
 
 - edit a subscriber's digital registration
 - add or remove another user to a subscriber's digital subscription
@@ -10,9 +10,9 @@ You can manage a subscriber's digital subscription from the **digital** tab. Fro
 
 To view the **digital** tab, perform a [subscription search](www.example.com), and then select the **digital** tab.
 
-### Add someone to a digital registration
+### Invite a user to share registration
 
-To invite someone to a digital registration:
+To invite a user to share registration:
 
 1. Select the **invite** button next to any user in the **registrations** grid. A window appears that indicates the amount of remaining registered users. If the user has remaining invites, continue to the next step. Otherwise, you cannot proceed.
 2. Add the new users first name, last name, and email address. Select either `owner` or `guest` as the user type. This determines the amount of privilege the user will have.
@@ -40,9 +40,9 @@ To edit a user's registration information:
 2. Toggle whether both the email address and password should be changed. If keeping current, select `keep current` and do nothing. If changing, select `set to...` and add the new password or email.
 3. Select the **update** button next to either the new password or email.
 
-### Remove someone from a digital registration
+### Remove someone from shared registration
 
-To remove someone from a digital registration:
+To remove a user from shared registration:
 
 1. Select the **invite** button next to any user in the **registrations** grid.
 2. Navigate to the **current members** grid.
