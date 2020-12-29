@@ -2,7 +2,7 @@
 
 #### Goal
 
-The goal of this is to show you how an **Available Area** (AA) works in SolCon. An **AA** is an area that a division can be delivered to.
+The goal of this guide is to show you how an **Available Area** (AA) works in SolCon. An **AA** is an area that a division can be delivered to.
 SolCon comes with all of the US and Canada postal codes preconfigured, but you might want to limit or expand your delivery range to a different **AA**.
 
 #### Before you start
