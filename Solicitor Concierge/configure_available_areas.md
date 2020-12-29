@@ -51,4 +51,4 @@ Congratulations! You've added your newly created **AA** to your billing product.
 
 #### What you've learned
 
-To review, you've learned to create or update **AAs**, which are designated deliverable postal codes, and you've learned to add the **AAs** that you've created to your billing products, which in effect _activates_ them.
+To review, you've learned to create or update **AAs**, which are designated deliverable postal codes, and you've learned to add the **AAs** that you've created to your billing products, which enables you to add them to an Offer Group.
