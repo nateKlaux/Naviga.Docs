@@ -125,7 +125,7 @@ Syncing your SolCon app to the Subscribe database also resolves errors. It is re
 
 ### Configure offer groups
 
-### Configure your sales team
+### Configure users, sales teams, and team members
 
 ### Configure an activation fee
 
