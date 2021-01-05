@@ -2,7 +2,7 @@
 
 #### Goal
 
-The goal of this guide is to show you how to configure marketing copy in SolCon. You can create copy profiles (e.g. `Print Delivery Copy` or `Digital Access Copy`) and then use them when creating Offer Groups.
+The goal of this guide is to show you how to configure marketing copy in SolCon. You can create profiles (e.g. `Print Delivery Text` or `Digital Access Text`) and then use them in your Offer Groups.
 
 #### Before you start
 
@@ -19,17 +19,17 @@ Create a marketing text profile:
 1. Select the **inventory** menu in the SolCon dashboard, then choose **Marketing Text**.
 2. Select the **+** button. The creation screen will appear and display a series of WYSIWYG text fields.
 3. Choose a name for your marketing text profile, (e.g. `Digital Only`).
-4. Write your desired copy for the _title_, _body_, and _price_ fields. Use the WYSIWYG editor to format your text.
-5. Add an internal description, a confirmation name, and any serach tags.
-6. Optionally, select **set as default** then either **physical / digital**.
+4. Write your desired text for the _title_, _body_, and _price_ fields. Use the WYSIWYG editor to format your text.
+5. Add an internal description, a confirmation name, and any search tags.
+6. Optionally, select **set as default** then select either **physical/digital**.
 7. Select **save**.
 
-Here is an annotated image that displays a _tite_, _body_, and _price_.
+Here is an annotated image that displays a _title_, _body_, and _price_.
 (SCREEN)
 
 **Attributes**
 
-Using attributes is highly recommended and will save you a lot of time. Think of attributes like placeholders for publication-specific copy, like a phone number or address. When a phone number or address changes, you won't need to update every marketing text profile since you're using an attribute as a placeholder. You only need to update the attribute once in the CMS. An attribute might look like this:
+Using attributes is _highly recommended_ and will save you a lot of time. Think of attributes like placeholders for publication-specific text, similar to a phone number or address. When a phone number or address changes, you won't need to update every marketing text profile since you're using an attribute as a placeholder. You only need to update the attribute once in the CMS. An attribute might look like this:
 
 ```Unlimited digital news at {{NewspaperName}}. Call now at {{PublicationPhoneNumber}}```
 
@@ -37,7 +37,7 @@ Add attributes:
 
 1. Select **+Attributes & Images**. The tab appears to the right.
 2. Select the **attributes** tab.
-3. Drag your desired attribute into the WYSIWYG editor. Alternatively, you can simply type your attribute if you know it's format and name.
+3. Drag your desired attribute into the WYSIWYG editor. Alternatively, you can simply type your attribute if you know its format and name.
 
 **Images**
 

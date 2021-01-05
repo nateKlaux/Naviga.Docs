@@ -3,13 +3,7 @@
 #### Goal
 
 The goal of this guide is to show you how an **Available Area** (AA) works in SolCon. An **AA** is an area that a division can be delivered to.
-SolCon comes with all of the US and Canada postal codes preconfigured, but you might want to limit or expand your delivery range to a different **AA**.
-
-#### Before you start
-
-Make sure you meet the following pre-requisites before starting the tutorial steps:
-
-* Reach out to your Naviga Implementation Manager to get your SolCon application up and running
+SolCon comes with all the US and Canada postal codes preconfigured, but you might want to limit or expand your delivery range to a different **AA**.
 
 #### Manage your AAs
 
@@ -24,7 +18,7 @@ Create an AA:
 Add a postal code:
 
 1. Select the circular **+** button in the **ZIP/Postal Codes** section. A search feature will appear.
-2. In the following order, choose a country, state, and if applicable, county and city. You can limit your **AA** to a single postal code or an entire city or state's postal codes.
+2. In the following order, choose a country, state, and if applicable, county and city. You can limit your **AA** to a single postal code or an entire city or state's postal code.
 3. Add individual postal codes by either dragging or double-clicking them or add your entire search query with the **add all** button. Once a postal code has been added to your **AA**, you can explore them with the expand arrow.
 4. Select the **active** box, then select **save**.
 
@@ -33,7 +27,7 @@ Congratulations, you've created a unique **AA**. To use this **AA**, you will ne
 Delete or edit an existing **AA**:
 
 1. Select the **inventory** menu in the SolCon dashboard, then choose **Available Areas**. Any existing or preconfigured **AAs** will display.
-2. Navigate to the desired **AA** and select the pencil icon to edit **OR** the trash can icon to delete. If editing, the creation screen will appear. If deleting, confirm your choice and select **delete**.
+2. Navigate to the desired **AA** and select the pencil icon to edit **OR** the trash can icon to delete. If editing, the creation screen will appear. If deleting, confirm your choice then select **delete**.
 
 #### Add your new AA to your billing product
 
@@ -43,7 +37,7 @@ Add an **AA** to a billing product:
 
 1. Select the **inventory** menu in the SolCon dashboard, then choose **Products & Bundles**. Any existing or preconfigured billing products will display.
 2. Navigate to your desired billing product and select the pencil icon.
-3. Select the **available areas** window to highlight it. Any **AAs** you have created will appear to the right.
+3. Select the **available areas** window to highlight the section. Any **AAs** you have created will appear to the right.
 4. Drag or double-click the **AA** you wish to add.
 5. Select **save**.
 

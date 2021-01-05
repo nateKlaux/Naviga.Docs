@@ -2,11 +2,15 @@
 
 #### Overview and goal
 
-The goal of this guide is to show you how Sales Products (SPs) work in SolCon. SPs differ from Billing Products (BPs). Naviga preconfigures your BPs, and they are a combination of Publications (divisions) and their Delivery Schedules (frequencies). On the other hand, you create your SPs, which are a way to "group" similar frequencies. An SP helps simplify the process of configuring Offer Groups.
+The goal of this guide is to show you how Sales Products (SPs) and Billing Products (BPs) work in SolCon. One difference between SPs and BPs is that Naviga preconfigures your BPs whereas you create your SPs.
 
-As an example, you may want to create a Sunday Only SP. This SP would be a single entity that includes _every_ division that has a Sunday Only BP.
+BPs are a combination of Publications (divisions) and their Service Types (delivery frequencies). SPs are a way to "group" similar BPs.
 
-You could also create a Digital Only SP, which would include every division that has a Digital Only BP. 
+**Note**: Best practice dictates that you create SPs to reflect _divisions that have similar delivery frequencies_. Creating SPs in this way will greatly simplify managing your Offer Groups.
+
+For example, you may want to create a Sunday Only SP. This SP would be a single entity that includes _every_ division that has a Sunday Only BP.
+
+You could also create a Digital Only SP, which would include every division that has a Digital Only BP.
 
 Creating SPs in this way helps you organize your SolCon dashboard and removes complexity and duplication.
 
@@ -14,11 +18,11 @@ Creating SPs in this way helps you organize your SolCon dashboard and removes co
 
 Make sure you meet the following pre-requisites before starting the tutorial steps:
 
-* Reach out to your Naviga Implementation Manager to get your SolCon application up and running
+* Configure your [Available Areas](example.com)
 
 #### Create a Sales Product
 
-In this section, you will learn how to create an SP. The first procedure will guide you through the mandatory steps. The latter procedures explore optional configurations. 
+In this section, you will learn how to create an SP. The first procedure will guide you through the mandatory steps. The latter procedures explore optional configurations.
 
 Create an SP:
 
@@ -29,7 +33,7 @@ Create an SP:
 5. Add your desired BPs. Select the billing products window, then double-click or drag your desired BP. To continue with the example, this would be any Sunday Only BPs.
 6. Add an optional configuration with the steps below. Otherwise, select the **active** box then select **save**.
 
-**NOTE**: If you do not see a desired BP, make sure you have assigned it an [Available Area](example.com). BPs without an assigned Available area _will not_ display here.
+**NOTE**: If you do not see the desired BP, make sure you have assigned it an [Available Area](example.com). BPs without an assigned Available area _will not_ display here.
 
 Optionally, you can configure your SP further:
 

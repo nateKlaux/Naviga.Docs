@@ -2,13 +2,7 @@
 
 #### Goal
 
-The goal of this guide is to show you how to configure terms and conditions (T&C) copy in SolCon. You can create copy profiles (e.g. `Print Delivery T&C` or `Digital Access T&C`) and then use them when creating Offer Groups.
-
-#### Before you start
-
-Make sure you meet the following pre-requisites before starting the tutorial steps:
-
-* Reach out to your Naviga Implementation Manager to get your SolCon application up and running
+The goal of this guide is to show you how to configure terms and conditions (T&C) text in SolCon. You can create profiles (e.g. `Print Delivery T&C` or `Digital Access T&C`) and then use them in your Offer Groups.
 
 #### Create terms and conditions text
 
@@ -19,21 +13,21 @@ Create a T&C text profile:
 1. Select the **inventory** menu in the SolCon dashboard, then choose **Terms & Conditions**.
 2. Select the **+** button. The creation screen will appear and display a WYSIWYG text editor.
 3. Choose a name for your marketing text profile, (e.g. `Print Delivery T&C`).
-4. Write your desired copy for the _body_ fields. Use the WYSIWYG editor to format your text.
+4. Write your desired text for the _body_ fields. Use the WYSIWYG editor to format your text.
 5. Add any search tags.
-6. Optionally, select **set as default** then either **physical / digital**.
+6. Optionally, select **set as default** then select either **physical/digital**.
 7. Select **save**.
 
 **Attributes**
 
-Using attributes is highly recommended and will save you a lot of time. Think of attributes like placeholders for publication-specific copy, like a phone number or address. When a phone number or address changes, you won't need to update every marketing text profile since you're using an attribute as a placeholder. You only need to update the attribute once in the CMS. An attribute might look like this:
+Using attributes is _highly recommended_ and will save you a lot of time. Think of attributes like placeholders for publication-specific text, like a phone number or address. When a phone number or address changes, you won't need to update every marketing text profile since you're using an attribute as a placeholder. You only need to update the attribute once in the CMS. An attribute might look like this:
 
 ```...You can cancel anytime by calling the {{PublicationPhoneNumber}}...```
 
 Add attributes:
 
 1. Select **+Attributes**. The tab appears to the right.
-2. Drag your desired attribute into the WYSIWYG editor. Alternatively, you can simply type your attribute if you know it's format and name.
+2. Drag your desired attribute into the WYSIWYG editor. Alternatively, you can simply type your attribute if you know its format and name.
 
 Delete or edit a T&C text profile:
 

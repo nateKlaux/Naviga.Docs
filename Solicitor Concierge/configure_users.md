@@ -4,7 +4,7 @@
 
 The goal of this guide is to show you how to configure various user accounts in SolCon. This guide explores three categories:
 
-- A `user` is the most general category. This is anyone who has access to your SolCon application. `Users` have various types and privlieges. 
+- A `user` is the most general category. This is anyone who has access to your SolCon application. `Users` have various types and privileges. 
 - A `Sales Team` is a group of users that has access to sell Sales Products, Divisions, and Offer Groups.
 - a `Team Member` is a `user` that has been added to a particular `Sales Team`.
 
@@ -12,7 +12,7 @@ The goal of this guide is to show you how to configure various user accounts in 
 
 Make sure you meet the following pre-requisites before starting the tutorial steps:
 
-* Reach out to your Naviga Implementation Manager to get your SolCon application up and running
+* Ensure the default Sales Teams for the platforms `Kiosk (LTE)` and `SubconAdmin` have been created
 * Have admin privileges in your SolCon account
 
 #### Create a user
@@ -23,7 +23,7 @@ Create a user:
 
 1. Select the **admin** menu in the SolCon dashboard, then choose **users**. A list of SolCon users will display.
 2. Select the **+ new** button. A creation window will appear.
-3. Enter a `user name`, as well as email address and password. `User names` must not contain special characters.
+3. Enter a `user name`, as well as an email address and password. `User names` must not contain special characters.
 4. Select the **role** box then double-click or drag to add a role. Role types are defined in the table below. Only one role can be selected.
 5. Select **save**.
 
@@ -60,6 +60,11 @@ Create a user:
 | Available Area | X | X | Read | Read | Read |
 | Name Value Pair | X | X | Write | Write | X |
 | Attribute | X | X | Write | Write | Write |
+| **Sales Team/Team Members:** |  |  |  |  |  |
+| Sales Team | Write | X | Write | Write | Read |
+| Team members | Write | X | Write | Write | Read |
+| **Admin:** |  |  |  |  |  |
+| Users | Write | X | Write | Write | Read |
 
 #### Create a sales team
 
@@ -70,7 +75,7 @@ To create a sales team:
 3. Enter a name for the sales team (typically the vendor's name), then select the platform the team will be using.
 4. Select the **divisions** box, then double-click or drag to add divisions the team will use.
 4. Select the **Offer Groups** box, then double-click or drag to add Offer Groups the team will use.
-5. (Optionally, if you've already created team members, you can add them to the team by by selecting the **team members** box.)
+5. (Optionally, if you've already created team members, you can add them to the team by selecting the **team members** box.)
 6. Fill in any contact or bank account information and select **save**.
 
 #### Create a team member
@@ -84,3 +89,7 @@ To create a team member:
 5. Select the **divisions** and **Offer Groups** boxes, then double-click or drag to add divisions and Offer Groups the team member will use.
 6. Select the **users** box, then double-click or drag the `user` to associate the `user` and `team member` hierarchies.
 7. Select **save**.
+
+#### What you've learned
+
+Congratulations! You've created various types of users. To recap, you've learned about `users`, `sales team`, and `team members`, as well as how the three relate to each other.

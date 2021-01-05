@@ -33,7 +33,7 @@ In this section, you will learn how to create/edit/delete an Offer Group. The gu
 
 (Screen of price button)
 
-**Marketplace**: Use this feature to define the sales platform for the Offer Group.
+**Marketplace**: Use this feature to determine which sales platforms will use the Offer Group.
 
 1. Select the **marketplace** box. Your maketplace options will appear to the right.
 2. Choose how you wish to apply your sales platform (for `all`, by `price plan`, or by `division`).
@@ -90,7 +90,7 @@ _Smart offer segments_ determines if your Offer Group will be used as a Smart Of
 
 _Multi-use codes_ determines whether a customer coupon-code is required to access the Offer Group.
 
-_Custom codes_ refer to codes that are customized for you. You can apply these codes to either all or individual divisions.
+_Custom codes_ refer to circulation dependent codes. The table below shows NCS Circ example codes. You can apply these codes to either all or individual divisions.
 
 | Custom codes | Definition |
 |-|-|
@@ -104,7 +104,7 @@ _Billing system codes_ refers to codes associated with the billing system. You c
 | Billing System Codes | Definition |
 |-|-|
 | Rate code | The Offer Group's NCS Circ rate code. |
-| Bill period | ??? |
+| Bill period | The billing type used (e.g. `CCAuto` or `BankAuto`) |
 | Reason code | NCS Circ's reason code associated with the rate code. |
 | Term | The billing term type (e.g. `weeks` or `months`). |
 | Billing Method | The billing method used (e.g. `Office Pay`). |

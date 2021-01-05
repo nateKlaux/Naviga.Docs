@@ -5,11 +5,13 @@
 
 This guide walks you through configuring New Starts in SolCon for the Matrix circulation system.
 
+See this workflow for a visual representation.
+
 ## Before you start
 
 Make sure you meet the following pre-requisites before starting the how-to steps:
 
-* Have Matrix version x.xx.
+* Have Matrix version 3.12.
 * Have access to the SolCon application.
 
 ## Step-by-step guide
@@ -24,9 +26,9 @@ From the SolCon dashboard:
 6. Select **update** or **save as new**.
 
 
-| Billing System Code | Value |
-|-|-|
-| Rate code | IT 6 MTHS |
-| Copies | 1 |
-| Period | 6 MONTHS |
-| TaxID | 1 |
+| Billing System Code | Description | Example Value |
+|-|-|-|
+| Rate code | Matrix's circulation code. | IT 6 MTHS |
+| Copies | The number of desired copies. | 1 |
+| Period | The length of time the Offer Group is valid. | 6 MONTHS |
+| TaxID | Matrix's tax code. |1 |
