@@ -4,9 +4,9 @@
 
 The goal of this guide is to show you how Sales Products (SPs) and Billing Products (BPs) work in SolCon. One difference between SPs and BPs is that Naviga preconfigures your BPs whereas you create your SPs.
 
-BPs are a combination of Publications (divisions) and their Service Types (delivery frequencies). SPs are a way to "group" similar BPs.
+BPs are a combination of divisions (publications) and their service types (delivery frequencies). SPs are a way to "group" similar BPs.
 
-**Note**: Best practice dictates that you create SPs to reflect _divisions that have similar delivery frequencies_. Creating SPs in this way will greatly simplify managing your Offer Groups.
+**Note**: Best practice dictates that you create SPs to reflect _divisions that have similar service types_. Creating SPs in this way will greatly simplify managing your Offer Groups.
 
 For example, you may want to create a Sunday Only SP. This SP would be a single entity that includes _every_ division that has a Sunday Only BP.
 
@@ -18,7 +18,7 @@ Creating SPs in this way helps you organize your SolCon dashboard and removes co
 
 Make sure you meet the following pre-requisites before starting the tutorial steps:
 
-* Configure your [Available Areas](example.com)
+* Configure your [Available Areas](example.com) and assign them to your Billing Products
 
 #### Create a Sales Product
 

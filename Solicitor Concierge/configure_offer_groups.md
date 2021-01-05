@@ -2,9 +2,11 @@
 
 #### Goal and overview
 
-The goal of this guide is to show you how **Offer Groups** work, as well as how to configure them in SolCon. An Offer Group is a collection of Sales Products and publications (divisions). Each is fully configurable.
+The goal of this guide is to show you how **Offer Groups** work, as well as how to configure them in SolCon.
 
 This guide is a mix of tutorial and description. Use the headings to explore features at length.
+
+> **Best practice note**: We suggest creating Offer Groups as collections of Sales Products and divisions (publications). Creating them in this way allows you to still add unique prices, but minimizes the amount of duplication.
 
 #### Before you start
 
@@ -43,7 +45,7 @@ In this section, you will learn how to create/edit/delete an Offer Group. The gu
 
 > Note: you can also adjust the sales platform from the **additional options** box.
 
-**Terms and conditions**: use this feature to add the a T&C profile to your Offer Group.
+**Terms and conditions**: use this feature to add the a T&C template to your Offer Group.
 
 1. Select the **terms & conditions** box. Your T&C options will appear to the right.
 2. Choose how you wish to apply your T&C (for `all`, by `price plan`, or by `division`).
@@ -51,16 +53,16 @@ In this section, you will learn how to create/edit/delete an Offer Group. The gu
 4. Double-click or drag your desired T&C to add it to the Offer Group.
 5. Select **save draft** if continuing. Otherwise, select **publish**
 
->Note: You can edit and create new [T&C profiles](example.com) from the **terms & conditions** box. To do this, select **unlink**, make your changes, then select **save as new**.
+>Note: You can edit and create new [T&C templates](example.com) from the **terms & conditions** box. To do this, select **unlink**, make your changes, then select **save as new**.
 
-**Marketing text**: use this feature to add a Marketing Text profile to your Offer Group.
+**Marketing text**: use this feature to add a Marketing Text template to your Offer Group.
 
 1. Select the **marketing text** box. Your marketing text options will appear to the right.
-2. Choose how you wish to apply your marketing text profile (for `all`, by `price plan`' or by `division`).
+2. Choose how you wish to apply your marketing text template (for `all`, by `price plan`' or by `division`).
 3. Double-click or drag your desired marketing text to add it to the Offer Group.
 4. Select **save draft** if continuing. Otherwise, select **publish**
 
-> Note: You can edit and create new [Marketing Text profiles](example.com) from the **marketing text** box. To do this, select **unlink**, make your changes, then select **save as new**.
+> Note: You can edit and create new [Marketing Text templates](example.com) from the **marketing text** box. To do this, select **unlink**, make your changes, then select **save as new**.
 
 **Related offers**: use this feature to add related Offer Groups as upsell options to this Offer Group.
 
@@ -99,7 +101,9 @@ _Custom codes_ refer to circulation dependent codes. The table below shows NCS C
 | Campaign code 1 | Campaign code from NCS Circ |
 | Codes 4-10 | Placeholders for additional functionality. |
 
-_Billing system codes_ refers to codes associated with the billing system. You can apply these codes to either all or individual divisions.
+_Billing system codes_ refers to codes associated with the circulation system. You can apply these codes to either all or individual divisions. For systems using NCS Circ 2018.5 or greater, choose a rate code first. Doing so will either populate your fields or provide a drop-down menu with the appropriate options.
+
+The following table is an example from NCS Circ. Other circulation systems can be configured differently.
 
 | Billing System Codes | Definition |
 |-|-|

@@ -4,8 +4,6 @@
 
 Welcome to the Solicitor Concierge (SolCon) User Guide. SolCon is an application designed to help you manage your offers and products. This guide will explore some key concepts to help you understand the SolCon application and guide you through common tasks.
 
-SolCon current version: 3.12 87408
-
 Your SolCon site automatically syncs with your Subscribe database and sync your Billing Products. This means that your divisions (individual publications) and Frequencies (Delivery Schedules) are already accessible in the SolCon site. You can use SolCon to manage your particular products, offer groups, communications, and more.
 
 ## SolCon Quick Start
@@ -20,7 +18,9 @@ Make sure you meet the following pre-requisites before starting the tutorial ste
 
 ### Get Started
 
-### Step 1 - Configure your first available area
+### Step 1 - Configure an available area
+
+By default, all of the US and CA postal codes will be included as deliverable areas. To narrow further:
 
 1. Select **inventory**, then choose **available areas**.
 2. Select **+ new** button.
@@ -99,7 +99,7 @@ Organizing your offer groups in this way minimizes complexity and duplication. I
 
 **Teams**: Manage your sales teams here. Create a team, manage its members, and customize what offers each team can sell.
 
-**Reference Tables**: This is a read-only reference section that allows you to quickly view product data.
+**Reference Tables**: This is read-only reference section that allows you to quickly view product data about product codes, household levels, sales platforms, service types, and billing plans.
 
 **Admin**: Add users and manage their registration to the SolCon application here.
 
@@ -107,7 +107,7 @@ Organizing your offer groups in this way minimizes complexity and duplication. I
 
 **ClearCache**: Clearing your cache often resolves errors. It is important to clear your cache after you have made changes in the SolCon application.
 
-**Sync**: Syncing your SolCon app to the Subscribe database also resolves errors. It is recommended you try these are first steps if you encounter an issue.
+**Sync**: Syncing the Subscribe database to your SolCon app also resolves errors. It is recommended you try these are first steps if you encounter an issue.
 
 ### Import/Export Features
 Use these buttons to import and export data into SolCon. Data must be in JSON format.
