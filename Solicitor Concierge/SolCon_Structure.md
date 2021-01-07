@@ -2,9 +2,28 @@
 
 ## Welcome
 
-Welcome to the Solicitor Concierge (SolCon) User Guide. SolCon is an application designed to help you manage your offers and products. This guide will explore some key concepts to help you understand the SolCon application and guide you through common tasks.
+Welcome to the Solicitor Concierge (SolCon) User Guide. SolCon is a flexible application designed to help you create Offer Groups, sell your Offer Groups, and manage the users who have access to them.
 
-Your SolCon site automatically syncs with your Subscribe database and sync your Billing Products. This means that your divisions (individual publications) and Frequencies (Delivery Schedules) are already accessible in the SolCon site. You can use SolCon to manage your particular products, offer groups, communications, and more.
+### Overview
+
+An Offer Group is comprised of different inventory products. The different types of inventory products are available areas, sales products, marketing texts, terms & conditions texts, and premiums. First, you will create all of your inventory products. Next, you will create your Offer Groups. Last, you will create your users and teams, designating their access and permissions.
+
+### SolCon diagram
+
+The diagram below shows you how the different components of SolCon work together.
+ (DIAGRAM)
+
+> Tip: Your SolCon site automatically syncs with your Subscribe database and imports your Billing Products from the Subscriber Concierge database. A billing product is a combination of your divisions (individual publications) and your service types (delivery frequencies). Besides adding postal codes, billing products cannot be edited. However, you can group them into sales products to incorporate them into an Offer Group.
+
+### Guide structure
+
+This guide will explore some key concepts to help you understand the SolCon application and guide you through common tasks. The guide contains three main sections, [quick start](example.com), [SolCon UI guide](example.com), and [tutorials](example.com).
+
+The quick start provides the highest overview and instruction to get you going. Its aim is to show you how create your inventory products and first Offer Group quickly. It also acts as a good overview for how SolCon works.
+
+The SolCon UI Guide explores how to navigate around the SolCon application. The application contains many features. Use this section to for high-level definitions and explanations.
+
+The tutorials provide the most detail and information. They walk you through each step for each feature in SolCon.
 
 ## SolCon Quick Start
 

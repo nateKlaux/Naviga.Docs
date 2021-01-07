@@ -10,7 +10,11 @@ This article explores the Reference Tables menu in the SolCon Dashboard. The Ref
 
 ## Coding
 
-Use this section to view Multi-use (`multiuse`) and One-time-use (`onetimeuse`) codes. The reference table will give you the name and type of code.
+Use this section to view Multi-use (`multiuse`) and One-time-use (`onetimeuse`) codes. 
+
+The reference table will give you the name and type of code. Multi-use codes are customer coupon codes that can be used multiple times by different customers. Use them to allow customer's access to special offers. One-time-use codes are customer coupon codes that can be used a single time to give customers access to special offers.
+
+Select the collapsed menu icon at the end of the line to view which Offer Groups are currently using the code.
 
 You can [create new codes](example.com) from the Offer Groups menu.
 

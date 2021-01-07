@@ -5,6 +5,10 @@
 The goal of this guide is to show you how an **Available Area** (AA) works in SolCon. An **AA** is an area that a division can be delivered to.
 SolCon comes with all the US and Canada postal codes preconfigured, but you might want to limit or expand your delivery range to a different **AA**.
 
+Make sure you meet the following pre-requisites before starting the tutorial steps:
+
+* Have a least one billing product configured. Reach out to a Naviga Implementation Manager to do this.
+
 #### Manage your AAs
 
 In this section, you will learn how to create a new **AA** and delete or edit an existing **AA**.
@@ -32,6 +36,8 @@ Delete or edit an existing **AA**:
 #### Add your new AA to your billing product
 
 In this step, you will learn how to add your new **AA** to your existing billing product. Your billing products will have been configured by Naviga to include the preconfigured US and Canada postal codes, but you will need to manually add any new **AAs** you create.
+
+> **Tip**: A billing product is a combination of your divisions (individual publications) and your service types (delivery frequencies). Besides adding postal codes, billing products cannot be edited.
 
 Add an **AA** to a billing product:
 
