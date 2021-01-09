@@ -6,14 +6,14 @@ Welcome to the Solicitor Concierge (SolCon) User Guide. SolCon is a flexible app
 
 ### Overview
 
-An Offer Group is comprised of different inventory products. The different types of inventory products are available areas, sales products, marketing texts, terms & conditions texts, and premiums. First, you will create all of your inventory products. Next, you will create your Offer Groups. Last, you will create your users and teams, designating their access and permissions.
+An Offer Group is comprised of different inventory products. The different types of inventory products are available areas, sales products, marketing texts, and terms & conditions texts. First, you will create all of your inventory products. Next, you will create your Offer Groups. Last, you will create your users and teams, designating their access and permissions.
 
 ### SolCon diagram
 
 The diagram below shows you how the different components of SolCon work together.
  (DIAGRAM)
 
-> Tip: Your SolCon site automatically syncs with your Subscribe database and imports your Billing Products from the Subscriber Concierge database. A billing product is a combination of your divisions (individual publications) and your service types (delivery frequencies). Besides adding postal codes, billing products cannot be edited. However, you can group them into sales products to incorporate them into an Offer Group.
+> Tip: Your SolCon site automatically syncs with your Subscribe database and imports your Billing Products from the Subscriber Concierge database. A billing product is a combination of your divisions (individual publications) and your service types (delivery frequencies). Besides adding Available Areas, billing products cannot be edited. However, you can group them into sales products to incorporate them into an Offer Group.
 
 ### Guide structure
 
@@ -109,7 +109,7 @@ Start w/ inventory section. Inventory is anything and everything you'd need to s
 
 Organizing your offer groups in this way minimizes complexity and duplication. Instead of managing hundreds of different publications, each with its own product and delivery type, you will manage a few groups and customize them as needed.
 
-**Offers**: This is a read-only section that allows you to quickly view your offers and divisions.
+**Offers**: This is a read-only section that allows you to quickly view your offers and divisions. The format of the offer's name is `offerGroupName - divisionName`.
 
 **Promotions**: You can create and manage your promotions here. Promotions is a legacy concept, and a promotion is a group of Offer Groups.
 <!-- (Replaced promotions w/ offer groups in new release. Promotions is basically legacy concept. ) -->
@@ -120,7 +120,7 @@ Organizing your offer groups in this way minimizes complexity and duplication. I
 
 **Reference Tables**: This is read-only reference section that allows you to quickly view product data about product codes, household levels, sales platforms, service types, and billing plans.
 
-**Admin**: Add users and manage their registration to the SolCon application here.
+**Admin**: Add users and manage their access and permissions of the SolCon application here.
 
 ### Sync Features
 

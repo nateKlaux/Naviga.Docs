@@ -14,7 +14,7 @@ Use this section to view Multi-use (`multiuse`) and One-time-use (`onetimeuse`) 
 
 The reference table will give you the name and type of code. Multi-use codes are customer coupon codes that can be used multiple times by different customers. Use them to allow customer's access to special offers. One-time-use codes are customer coupon codes that can be used a single time to give customers access to special offers.
 
-Select the collapsed menu icon at the end of the line to view which Offer Groups are currently using the code.
+Select the collapsed menu icon at the end of the line to view which Offer Groups are currently using the code. You can search and filter codes with the **search** and **status** fields.
 
 You can [create new codes](example.com) from the Offer Groups menu.
 

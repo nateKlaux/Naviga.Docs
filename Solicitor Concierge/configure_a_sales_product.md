@@ -35,9 +35,9 @@ Create an SP:
 
 **NOTE**: If you do not see the desired BP, make sure you have assigned it an [Available Area](example.com). BPs without an assigned Available area _will not_ display here.
 
-Optionally, you can configure your SP further:
+##### Optionally, you can configure your SP further:
 
-**Limit available areas** allows you to specify a particular Available Areas that you have added to BPs. To limit the available area:
+**Limit available areas** allows you to specify a particular Available Areas that you have added to BPs (if you don't wish to limit, leave all product available areas checked). To limit the available area:
 
 1. Select the limit available area window.
 2. Select **set per product**.
