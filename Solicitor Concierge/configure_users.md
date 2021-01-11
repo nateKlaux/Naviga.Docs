@@ -2,11 +2,39 @@
 
 #### Overview and goal
 
-The goal of this guide is to show you how to configure various user accounts in SolCon. This guide explores three categories:
+The goal of this guide is to show you how to configure the various user accounts in the SolCon application:
 
-- A `user` is the most general category. This is anyone who has access to your SolCon application. `Users` have various types and privileges. 
-- A `Sales Team` is a group of users that has access to sell Sales Products, Divisions, and Offer Groups.
-- a `Team Member` is a `user` that has been added to a particular `Sales Team`.
+**Users** is the most generic account type. But there are various types of user accounts, each with their own roles and permissions. View the [Roles and Permissions Matrix](http://example.com) for extensive definition.
+
+**Sales Teams** consist of either one or more Team Members. The purpose of a Sales Team is give Team Members the ability to sell Offer Groups.
+
+**Team Members** consist of either one or more Users and *must* be a part of a Sales Team.
+
+As an admin, you must create your accounts in this order:
+
+1. Users
+2. Sales Teams
+3. Team Members
+
+This order is important because when you attempt to create Team Members, you must also assign them to a Sales Team (and therefore already have a Sales Team created).
+
+This diagram show the general relationship between users, team members, and sales teams.
+
+(SCREEN OF DIAGRAM)
+
+Team Members can only sell the Offer Groups associated with their Sales Team. You can create multiple Team Members, both part of the sames Sales Team, but each with distinct Offer Groups. 
+
+>
+> An Example:
+Let's say there exists five Offer Groups, one Sales Teams, three Team Members, and many Users. In this scenario, out of the five total Offer Groups, the Sales Team only has collective access to OG1, OG2, and OG3 (OG4 and OG5 are used in a Sales Team not discussed here).
+>
+> Team Members 1 is part of the Sales Team, but only has access to OG1 and OG2, whereas Team Members 2 is part of the same Sales Team, but only has access to OG 2 and OG 3. In this scenario, Users will only have access to the Offer Groups that there Team Members group has access to, even if the Sales Team is associated with more Offer Groups.
+>
+>However, Team Members 3 is designated as default, which means all of the associated Users will have access to all of the Offer Groups at the Sales Team level.
+>
+>This example is visuzlied below as a spread sheet:
+
+(SCREEN OF SPREAD SHEET)
 
 #### Before you start
 

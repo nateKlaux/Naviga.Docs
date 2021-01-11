@@ -26,7 +26,7 @@ In this section, you will learn how to create/edit/delete an Offer Group. The gu
 
 1. Select the **Offer Groups** menu in the SolCon dashboard. Any existing Offer Groups will display on the right.
 2. Select the **+** button. The creation screen will appear.
-3. Choose a name for your Offer Group. Best practice dictates using the following naming convention: `{SalesProductName} - {DivisionName}`
+3. Choose a name for your Offer Group.
 4. Select **save draft** if continuing. Otherwise, select **publish**.
 
 **Products and divisions**:
@@ -95,15 +95,13 @@ _House hold levels_ is a means by which you can define entitlement levels (e.g. 
 
 _Smart offer segments_ determines if your Offer Group will be used as a Smart Offer. Check out the [Stop Saver tutorial](example.com) for detailed exploration. You can apply the Smart Offer segment to either all or individual divisions.
 
-_Multi-use codes_ determines whether a customer coupon-code can be used to access kind of special offer.
+_Multi-use codes_ determines whether a customer coupon-code can be used to access kind of special offer. These offers can be unlocked on either the Subscription Panel or in the CSR portal. On CSR portal there's a code field.
+
+(SCREEN)
 
 *One-time use codes* determines whether a single-use coupon code can be used to access a special offer.
 
 To create a code, select **one time use codes** and create your code's group in the *code groups created field. Name your code, determine it's length, and the amount of codes desired. Select **generate codes**. You can only add codes, and the difference between the number of preexisting codes and codes desired will generate. These codes exist only in the Subscribe database and will not be passed to a circulation database. View the Reference Guide for information about managing them.
-
-These offers can be unlocked on either the Subscription Panel or in the CSR portal. On CSR portal there's a code field.
-
-(SCREEN)
 
 _Custom codes_ refer to circulation dependent codes. The table below shows NCS Circ example codes. You can apply these codes to either all or individual divisions.
 
@@ -114,7 +112,7 @@ _Custom codes_ refer to circulation dependent codes. The table below shows NCS C
 | Campaign code 1 | Campaign code from NCS Circ (optional). |
 | Codes 4-10 | Placeholders for additional functionality. |
 
-_Billing system codes_ refers to codes associated with the circulation system. You can apply these codes to either all or individual divisions. For systems using NCS Circ 2018.5 or greater, choose a rate code first. Doing so will trigger a call to the circulation system and populate your fields. If more than one option exists, a drop-down menu with the appropriate options appears. Choose an option.
+_Billing system codes_ refers to codes associated with the circulation system. You can apply these codes to either all or individual divisions. For systems using NCS Circ 2018.5 or greater, choose a rate code first. Doing so will trigger a real-time call to the circulation system and populate your fields. If more than one option exists, a drop-down menu with the appropriate options appears. Choose an option.
 
 The following table is an example from NCS Circ. Other circulation systems can be configured differently.
 

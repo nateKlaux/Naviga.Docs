@@ -105,7 +105,7 @@ Start w/ inventory section. Inventory is anything and everything you'd need to s
 
 ### Solicitor Menu
 
-**Offer groups**: You can create and manage your offer groups in this section. You can customize an offer group to your liking, however, recommended practice dictates that you organize your offer groups around delivery frequencies. For example, _7 Day Delivery_, _Sunday Only_, _Monday, Wednesday, Friday_, _eEdition_ and so on. You can add divisions (individual publications) to an offer group and adjust their price(s) accordingly.
+**Offer groups**: You can create and manage your offer groups in this section. You can customize an offer group to your liking, however, recommended practice dictates that you organize your offer groups around delivery schedules. For example, _7 Day Delivery_, _Sunday Only_, _Monday, Wednesday, Friday_, _eEdition_ and so on. You can add divisions (individual publications) to an offer group and adjust their price(s) accordingly.
 
 Organizing your offer groups in this way minimizes complexity and duplication. Instead of managing hundreds of different publications, each with its own product and delivery type, you will manage a few groups and customize them as needed.
 

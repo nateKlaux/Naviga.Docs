@@ -8,6 +8,8 @@ This article explores the Reference Tables menu in the SolCon Dashboard. The Ref
 * Service Types
 * Billing plans
 
+Besides the coding category, the information in the following categories comes from the Subscribe database and is populated in SolCon with the sync button.
+
 ## Coding
 
 Use this section to view Multi-use (`multiuse`) and One-time-use (`onetimeuse`) codes. 

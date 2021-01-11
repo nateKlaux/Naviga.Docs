@@ -18,7 +18,8 @@ BPs are a combination of divisions (publications) and their service types (deliv
 
 Make sure you meet the following pre-requisites before starting the tutorial steps:
 
-* Have at least one billing product with an assigned Available Area.
+- Have the products created in your Subscribe database and then synced to SolCon as Billing Products.
+- Have Available Areas assigned to your Billing Products.
 
 #### Create a Sales Product
 
@@ -37,18 +38,18 @@ Create an SP:
 
 ##### Optionally, you can configure your SP further:
 
-**Limit available areas** allows you to specify a particular Available Areas that you have added to BPs (if you don't wish to limit, leave all product available areas checked). To limit the available area:
+**Limit available areas** allows you to specify a particular Available Areas that you have added to BPs (leaving `all product available areas` checked means all the available areas for the Billing Product will be available). To limit the available area:
 
 1. Select the limit available area window.
 2. Select **set per product**.
 3. Toggle between BPs and double-click or drag your desired Available Areas.
 
-**Add incompatible products** allows you to denote incompatible SPs. This feature disallows certain SPs from being combined when configuring Offer Groups. To add an incompatible product:
+**Add incompatible products** allows you to denote incompatible SPs (e.g. a Sunday Only delivery would be incompatible with a 7 Day Delivery). This feature disallows certain SPs from being combined when configuring Offer Groups. To add an incompatible product:
 
 1. Select the incompatible product window.
 2. Double-click or drag all desired incompatible products.
 
-**Add mandatory products** allows you to denote any BPs that must be sold as part of the SP. To add a mandatory product:
+**Add mandatory products** allows you to denote any BPs that must be sold as part of the SP (e.g. a TV Book or Puzzle Book that is mandatory for a 7 Day Delivery). To add a mandatory product:
 
 1. Select the mandatory product window.
 2. Double-click or drag all desired mandatory products.

@@ -37,7 +37,7 @@ Delete or edit an existing **AA**:
 
 In this step, you will learn how to add your new **AA** to your existing billing product. Your billing products will have been configured by Naviga to include the preconfigured US and Canada postal codes, but you will need to manually add any new **AAs** you create.
 
-> **Tip**: A billing product is a combination of your divisions (individual publications) and your service types (delivery frequencies). Besides adding Available Areas, billing products cannot be edited.
+> **Tip**: A billing product is a combination of your divisions (individual publications) and your service types (delivery frequencies). Besides adding Available Areas, billing products cannot be edited. They live in your Subscribe database and can be synced to SolCon with the sync button.
 
 Add an **AA** to a billing product:
 
