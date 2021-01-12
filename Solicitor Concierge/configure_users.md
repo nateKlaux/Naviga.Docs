@@ -4,7 +4,7 @@
 
 The goal of this guide is to show you how to configure the various user accounts in the SolCon application:
 
-**Users** is the most generic account type. But there are various types of user accounts, each with their own roles and permissions. View the [Roles and Permissions Matrix](http://example.com) for extensive definition.
+**Users** is a fundamental account type. There are various types of user accounts, each with their own roles and permissions. View the [Roles and Permissions Matrix](http://example.com) for extensive definition.
 
 **Sales Teams** consist of either one or more Team Members. The purpose of a Sales Team is give Team Members the ability to sell Offer Groups.
 

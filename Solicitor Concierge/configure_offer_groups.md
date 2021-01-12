@@ -112,7 +112,7 @@ _Custom codes_ refer to circulation dependent codes. The table below shows NCS C
 | Campaign code 1 | Campaign code from NCS Circ (optional). |
 | Codes 4-10 | Placeholders for additional functionality. |
 
-_Billing system codes_ refers to codes associated with the circulation system. You can apply these codes to either all or individual divisions. For systems using NCS Circ 2018.5 or greater, choose a rate code first. Doing so will trigger a real-time call to the circulation system and populate your fields. If more than one option exists, a drop-down menu with the appropriate options appears. Choose an option.
+_Billing system codes_ refers to codes associated with the circulation system. You can apply these codes to either all or individual divisions. For systems using NCS Circ 2018.5 or greater, choose a rate code first (the options come in real-time from the circulation system). Doing so will populate your fields. If more than one option exists, a drop-down menu with the appropriate options appears. Choose an option.
 
 The following table is an example from NCS Circ. Other circulation systems can be configured differently.
 

@@ -114,11 +114,11 @@ Organizing your offer groups in this way minimizes complexity and duplication. I
 **Promotions**: You can create and manage your promotions here. Promotions is a legacy concept, and a promotion is a group of Offer Groups.
 <!-- (Replaced promotions w/ offer groups in new release. Promotions is basically legacy concept. ) -->
 
-**Inventory**: This is a drop-down menu that allows you to manage everything related to your Offer Groups. You can create your sales products, bundles, marketing text, and T&C. You can also set up premiums and determine delivery areas.
+**Inventory**: This is a drop-down menu that allows you to manage everything related to your Offer Groups. You can create your sales products, marketing text, and T&C. You can also set up premiums and determine delivery areas.
 
 **Teams**: Manage your sales teams here. Create a team, manage its members, and customize what offers each team can sell.
 
-**Reference Tables**: This is read-only reference section that allows you to quickly view product data about product codes, household levels, sales platforms, service types, and billing plans.
+**Reference Tables**: This is read-only reference section that allows you to quickly view product data, such as codes, household levels, sales platforms, service types, and billing plans.
 
 **Admin**: Add users and manage their access and permissions of the SolCon application here.
 

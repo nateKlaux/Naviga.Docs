@@ -41,7 +41,24 @@ Use the following segment as a template, and replace your information:
 
 Congratulations! You have created your business rules. You must create business rules for all other scenarios. After you have created your rules, return them to your Naviga Implementation Manager.
 
-## Part 2 - Configure the offers in Solicitor Concierge
+The Naviga Implementation Manager will create a ticket so that the Data Team can execute the process. This process runs daily and will move all qualifying subscriptions, their Smart Offers segments, and Stop Saver segments to the `SubscriptionSmartOffer` table in the Subscribe database.
+
+
+<!-- Once the business rules are available, Naviga Impl manager will have to create a ticket to the data team to execute the process  The data process runs daily and moves all the qualifying subscription along with the smart offer segment to  -->
+
+<!-- Naviga impl mgr will have to create a ticket to the data team to execute the process for the specified business rules. The data process runs daily and moves all the qualifying subscription along with the stop saver segment to SubscriptionSmartOffer table in Subscribe db.  -->
+
+<!-- Naviga impl manager will have to create a ticket to the Subscribe subconadmin team  -->
+
+## Part 2 - STUFF
+
+### GOAL
+
+### Steps
+
+### Outcome
+
+## Part 3 - Configure the offers in Solicitor Concierge
 
 ### Goal
 
