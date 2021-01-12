@@ -17,7 +17,7 @@ Create a T&C text template:
 3. Choose a name for your marketing text template, (e.g. `Print Delivery T&C`).
 4. Write your desired text for the _body_ fields. Use the WYSIWYG editor to format your text.
 5. Add any search tags.
-6. Optionally, select **set as default** then select either **physical/digital**.
+6. Optionally, select **set as default** then select either **physical/digital**. Doing so will make this template the default of the same category when you create Offer Groups.
 7. Select **save**.
 
 **Attributes**
