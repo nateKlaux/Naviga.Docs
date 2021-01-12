@@ -143,6 +143,10 @@ The following table is an example from NCS Circ. Other circulation systems can b
 | Tags | Use this section to add search tags to your Offer Group. |
 | Old PID | Legacy promotion id. |
 
+#### Preview offers
+
+You can preview your the offers of your Offer Group with the **preview** button. Use the scroll arrows to navigate between offers. Select a section of the Offer Group to highlight it and preview that component. The preview will appear to the right.
+
 #### What you've learned
 
 Congratulations! You've created an Offer Group! To review, you've learned how to create an Offer Group, as well as explored all of the functionality of the Offer Groups menu.
