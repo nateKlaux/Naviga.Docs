@@ -124,12 +124,13 @@ Organizing your offer groups in this way minimizes complexity and duplication. I
 
 ### Sync Features
 
-**ClearCache**: Clearing your cache often resolves errors. It is important to clear your cache after you have made changes in the SolCon application.
+**ClearCache**: This clears your cache. It is important to clear your cache after you have made changes in the SolCon application. This ensures everything is up to date. Clearing your cache can also resolve errors, and it is recommened to do so if you encounter an issue.
 
-**Sync**: Syncing the Subscribe database to your SolCon app also resolves errors. It is recommended you try these are first steps if you encounter an issue.
+**Sync**: This syncs the Subscribe database to your SolCon app. Syncing also resolves errors. It is recommended you try syncing and clearing your cache first if you encounter an issue.
 
 ### Import/Export Features
-Use these buttons to import and export data into SolCon. Data must be in JSON format.
+
+Use these buttons to import and export JSON data into SolCon. Imported data must be in JSON format.
 
 ### User Icon
 

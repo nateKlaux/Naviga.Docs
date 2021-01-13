@@ -23,7 +23,7 @@ Create a marketing text template:
 3. Choose a name for your marketing text template, (e.g. `Digital Only`).
 4. Write your desired text for the _title_, _body_, and _price_ fields. Use the WYSIWYG editor to format your text.
 5. Add an internal description, a confirmation name, and any search tags.
-6. Optionally, select **set as default** then select either **physical/digital**.
+6. Optionally, select **set as default** then select either **physical/digital**. Doing so will make this template the default of the same category when you create Offer Groups.
 7. Select **save**.
 
 Here is an annotated image that displays a _title_, _body_, and _price_.
