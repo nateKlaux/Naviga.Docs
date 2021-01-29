@@ -78,7 +78,7 @@ If your cache was successfully cleared, a success banner appears at the bottom o
 
 -----------
 
-### Component manager
+### Component manager overview
 
 #### Description
 
@@ -104,7 +104,7 @@ If you select the **+ add new** button to create a new component, the following 
 
 -----------
 
-### Structure Admin
+### Structure Admin overview
 
 #### Description
 
@@ -126,7 +126,7 @@ This image shows the component selector tool. Use it to drag components into you
 
 ![Component Selector](./screens/component-selector.png)
 
-### Presentations
+### Presentations overview
 
 #### Description
 
@@ -156,7 +156,56 @@ After selecting/creating/importing a presentation, you can:
 - set whether your presentation is a **default** presentation
 - manage your various components
 
-
 ---------------------------------------
 
-## Tutorials
+## Tutorials and reference material
+
+This section of the guide contains tutorials, how-tos, and reference material for the Subscription Panel. Here you will find in depth information for working with the Subscription Panel.
+
+### Component Manager features
+
+The Component Manager allows you to manage your components. Typically, a Naviga developer will create your components since their settings and naming conventions must be accurate. This is done with an SQL script and ensures accuracy. It is not recommended to create components.
+
+This section explores the components themselves in the form of a matrix. This section also explores component properties.
+
+#### Components matrix
+
+The matrix below defines each component. Each tab represents a component class and has a table that describes the component and lists each possible parent and child components. Refer to this matrix for component definitions.
+
+(MATRIX THAT IS IN GITBOOK)
+
+### Component properties
+
+Each component must have at least one property, but typically a component has many properties.
+
+#### Create a new property
+
+To add a property to a component:
+
+1. Select the **componenet manager** button from the CMS.
+2. Search for the component that you wish to add a property to and select **edit**. (Optionally, select **+ add new** to create a new component.)
+3. Select **+ add new property**. The property creation screen appears.
+4. Fill in the property's information.
+5. Select **save** in the property's edit column.
+
+#### Edit an existing property
+
+To edit a component's properties:
+
+1. Select the **component manager** button from the CMS.
+2. Search for the component that you wish to edit.
+3. Select the **edit** button corresponding with your desired component. The property manager will display below.
+4. Navigate to the desired property and perform your desired edits.
+5. Select either **save** or **save as new**.
+
+#### Remove a property
+
+To remove a property from a component:
+
+1. Select the **component manager** button from the CMS.
+2. Search for the component that you wish to remove a property from.
+3. Select the **edit** button corresponding with your desired component. The property manager will display below.
+4. Find the desired property you wish to remove from the list and select **delete**.
+
+
+
