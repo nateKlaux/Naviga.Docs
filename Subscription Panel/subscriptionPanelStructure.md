@@ -8,7 +8,7 @@ The Subscription Panel is an application that allows potential customers to purc
 
 ### Guide structure
 
-This guide is composed of three main elements:
+This guide is composed of two main elements:
 
 - Overview - gives a brief introduction to the various features covered in this guide
 <!-- - Quick start - gives the quickest explanation for how to get started -->
@@ -158,23 +158,28 @@ After selecting/creating/importing a presentation, you can:
 
 ---------------------------------------
 
-## Tutorials and reference material
+## Tutorials, how-tos, and reference documentation
 
-This section of the guide contains tutorials, how-tos, and reference material for the Subscription Panel. Here you will find in depth information for working with the Subscription Panel.
+This section of the guide contains tutorials, how-tos, and reference material for the Subscription Panel. Here you will find in depth information for working with the Subscription Panel. The following topics are covered:
 
-### Component Manager features
+- item 1
+- item 2
+- item 3
+- so on and so forth
 
-The Component Manager allows you to manage your components. Typically, a Naviga developer will create your components since their settings and naming conventions must be accurate. This is done with an SQL script and ensures accuracy. It is not recommended to create components.
+### Components matrix
 
-This section explores the components themselves in the form of a matrix. This section also explores component properties.
+The matrix below defines each component. Each tab represents a component class and has a table that describes the component and lists each possible parent and child components. Refer to this matrix for component definitions. 
 
-#### Components matrix
+> **Tip**: The intent of the matrix is to provide a comprehensive definition for all (is this every component?) components that you can reference for specific questions. We suggest using task-based tutorials to help with particular tasks.
 
-The matrix below defines each component. Each tab represents a component class and has a table that describes the component and lists each possible parent and child components. Refer to this matrix for component definitions.
+> (MATRIX THAT IS IN GITBOOK)
 
-(MATRIX THAT IS IN GITBOOK)
+-----------------
 
-### Component properties
+### Create, edit, and remove a property
+
+#### Description
 
 Each component must have at least one property, but typically a component has many properties.
 
@@ -182,7 +187,7 @@ Each component must have at least one property, but typically a component has ma
 
 To add a property to a component:
 
-1. Select the **componenet manager** button from the CMS.
+1. Select the **component manager** button from the CMS.
 2. Search for the component that you wish to add a property to and select **edit**. (Optionally, select **+ add new** to create a new component.)
 3. Select **+ add new property**. The property creation screen appears.
 4. Fill in the property's information.
@@ -207,5 +212,174 @@ To remove a property from a component:
 3. Select the **edit** button corresponding with your desired component. The property manager will display below.
 4. Find the desired property you wish to remove from the list and select **delete**.
 
+-----------------
 
+### Create, edit, and delete a Presentation Template
 
+You can only edit Presentation Templates at the `Client` hierarchical level. 
+
+To create a new Presentation Template:
+
+1. From the CMS, select the **hierarchy** button and choose the `Client` level.
+2. Select **Subscription Panel**, then choose **Structure Admin**.
+3. Select **+ add new template**. The template creation screen appears.
+4. Choose a Template Name and Presentation Type. **Note**: each Presentation Type has a unique tree structure. If you change the Presentation Type after having made some edits, _the new tree structure will delete the existing tree structure and you will lose your edits._
+
+To edit a Presentation Template:
+
+1. From the CMS, select the **hierarchy** button and choose the `Client` level.
+2. Select **Subscription Panel**, then choose **Structure Admin**.
+3. Select an existing Presentation Template from the **selected** drop-down menu.
+4. Perform any edits you with to make, then select **save**.
+
+To duplicate a Presentation Template:
+
+1. From the CMS, select the **hierarchy** button and choose the `Client` level.
+2. Select **Subscription Panel**, then choose **Structure Admin**.
+3. Select an existing Presentation Template from the **selected** drop-down menu.
+4. Select the **duplicate** button. The duplicated Presentation Template will appear in the drop-down menu. Select it to change it's name.
+
+To delete a Presentation Template:
+
+1. From the CMS, select the **hierarchy** button and choose the `Client` level.
+2. Select **Subscription Panel**, then choose **Structure Admin**.
+3. Select an existing Presentation Template from the **selected** drop-down menu.
+4. Select the **- delete** button. Confirm you wish to delete this Presentation Template and select **Yes**. The template will be removed from the drop-down menu.
+
+-----------------
+
+### Create or import Presentations
+
+You can either create a new presentation or import a presentation from a JSON file.
+
+#### Import a Presentation
+
+To import a Presentation:
+
+1. From the CMS, select the **hierarchy** button and choose a hierarchical level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select the **options** drop-down and choose **import**.
+4. **Select a file** then select **import**.
+
+If successful, your new presentation should appear under the presentations drop-down menu.
+
+#### Create a Presentation
+
+##### Prerequisites
+
+Each new Presentation should meet the following criteria:
+
+* Have a unique Presentation Name (cannot be blank) that contains only digits and latin letters
+* Have a unique Presentation URL
+* Have a Presentation Type
+* Contain valid parent-child relationships between components.
+* Contain the following components:
+  1. Presentation Properties
+  2. Header
+  3. Page
+  4. Step
+  5. Confirmation
+  6. Order Summary
+
+##### Typical Presentation Component Layout
+
+(PRESENTATION LAYOUT DIAGRAM)
+
+##### Procedure
+
+To create a new Presentation:
+
+1. From the CMS, select the **hierarchy** button and choose a hierarchical level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select **add new presentation** and choose an option:
+    
+    A _blank presentation_ contains no components.
+    
+    _Save section as new_ reuses components. Changes made to components in this presentation will affect other presentations using these components.
+    
+    _Duplicate selection_ makes copies of the components for this presentation. Changes made to components in this presentation **will not** affect other presentations.
+
+    **Note**: if either saving as new or duplicating, select a presentation to work from the drop-down menu first, then choose your option.
+4. Based on your selection, continue to the corresponding section below for further steps.
+
+**Blank Presentations**:
+
+1. Add a presentation URL, presentation name, and presentation type to your new presentation.
+2. Choose whether you want the presentation to be a default presentation and whether its status is active/inactive.
+3. Use the **component selector** sidebar to add your components.
+4. Select **save**.
+
+**Save Section as new**:
+
+1. Change the presentation's name and URL to something unique.
+2. (Optionally, rename the components using the Component Renaming Tool. Once finished, select **save and close**. If you don't want to rename the components, select the **x** to exit from the tool).
+3. Select **save** to finish.
+
+**Duplicate section**:
+
+1. Change the Presentation's name and URL so that they are unique, then select **ok**.
+2. (Optionally, rename the components using the Component Renaming Tool. Once finished, select **save and close**. If you don't want to rename the components, select the **x** to exit from the tool.)
+3. Select **save** to finish.
+
+-----------------
+
+### Preview a Presentation
+
+You can preview a Presentation at any time with the **preview** button.
+
+To preview a Presentation:
+
+1. From the CMS, select the **hierarchy** button and choose an option from the `Newspaper` level.
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select the desired Presentation you wish to preview from the **selected** drop-down menu. Greyed Presentations are ...
+4. Select the **preview** button. A preview window will appear. If you've recently made changes, clear your cache first. Select **Manage Cache** then **Refresh CMS + Site**.
+
+-----------------
+
+### Edit, delete, or export a Presentation
+
+You can edit and delete Presentations.
+
+#### Edit
+
+To edit a Presentation:
+
+1. From the CMS, select the **hierarchy** button and choose a hierarchical level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select the desired Presentation you wish to edit from the **selected** drop-down menu. Greyed Presentations are ...
+4. Make your desired changes to the Presentation. To add a component, drag them from the **Component Selector** sidebar. To remove a component, select the **- remove** button next to the desired component.
+5. Select **save** once finished.
+
+#### Undo a change
+
+If at any time you've made a mistake that you wish to undo, select the **cancel** button. Any changes will be removed and the Presentation screen will disappear.
+
+#### Delete
+
+When you delete a Presentation you **are not** deleting components. They will still be available in the Component Manager section. 
+
+To delete a Presentation:
+
+1. From the CMS, select the **hierarchy** button and choose the `Client` hierarchical level.
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select the desired Presentation you wish to delete from the **selected** drop-down menu. Greyed Presentations are ...
+4. Select **- delete**. Confirm this is the correct Presentation and select **Yes**.
+
+#### Export
+
+You can export Presentations as either a JSON or HTML file.
+
+To export a Presentation as JSON:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select the **options** drop-down, then choose **export**.
+4. Select which Presentation(s) you want to export. The **show advanced** button allows you to include entity, property, and dictionary types as well as structure templates into the JSON file.
+5. Select **export content**. The download dialogue will appear. **Note**: if you chose many Presentations or the Presentation is large, it may take longer for the dialogue to appear.
+
+To export a Presentation as HTML:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. Select the Presentation you wish to export from the **selected** drop-down menu.
+4. Select the **options** drop-down, then choose **Business export**. The download dialogue will appear.

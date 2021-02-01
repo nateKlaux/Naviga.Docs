@@ -1,0 +1,31 @@
+Subscription Panel Checkout notes/ todo
+
+
+
+1. Offer API or we get offerid from URl
+2. Invoke GUP Modal
+-- steps 1
+-- steps 2
+
+3. Payment page
+-- invoke iframe
+-- step?
+
+4. Address
+-- address standardization
+  -- GET address API etc
+
+
+
+
+NOTE to self: (start about what steps we are doing, like big picutre. Then next step will be about documenting the APIs themselves)
+
+
+
+We make a call to Melissa, 
+
+validate with Melissa.
+
+As you do a new start, you go through several steps behind the scenes. 
+
+What are the steps as best as I can, then connect with Sergey, then at the very least just list the API endpoints. 

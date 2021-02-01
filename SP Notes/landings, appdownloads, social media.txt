@@ -1,0 +1,98 @@
+
+
+
+-- How to set up landing presentation 
+
+
+Presentation Workflow
+
+Difference between landding and no landing, is landing has a landing child.
+
+
+Just have a Page component w/ a landing component as a child.
+
+underneath landing, you would have promotion digital and promotion zipCode (OPTIONAL)
+
+The promotions act as a landing page. 
+
+MUST have: `OfferGroupId`
+
+Must have: "no offer available message"
+
+
+Highlight the STYLING ok
+
+
+If it is a ZIPCode validation required applied must be on, the message. It means ZIP is required, and the message is shown.
+
+We don't know what `ZipCodeFocusonLost` is
+
+
+
+ActionsinModal = yes comes up in modal and not live`
+
+
+Action ZipCodeFail title = message
+
+title top = top of landing message. 
+
+
+
+
+CREATE PRESENTATINO WITH NO LANDING -- 
+
+remove the landing 
+
+Need DefaultOfferGroupID (on the presentation properties component)
+
+remaining is the same 
+
+
+
+DIFFERENT LANDING TYPES
+
+page v3 -> landing- Tiles V3
+
+then the SUBTYPEnAME:
+
+
+
+
+
+
+=============
+
+
+
+How to present social media and apps download on confirmation
+
+(NOTE, USE DefaultLanding Presentation)
+
+Under confirmation component,
+
+have the app Downloads and social media components
+
+App Downloads = apple pay and Google Play Store
+
+1. select new
+select app downloads
+3. select 
+
+
+Social Media =
+
+select child components
+
+then fill out the rest.
+
+IMPORTANT
+
+
+
+On CONFIRMATION COMPONENT, MUST be Appdownloads.Show must be set to ON
+
+optionally:
+
+Social Media Header and Appdownloads Header (headers are optional)
+
+just mention the styling.... these are options
