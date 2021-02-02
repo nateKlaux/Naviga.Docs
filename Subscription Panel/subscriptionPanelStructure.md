@@ -160,12 +160,14 @@ After selecting/creating/importing a presentation, you can:
 
 ## Tutorials, how-tos, and reference documentation
 
-This section of the guide contains tutorials, how-tos, and reference material for the Subscription Panel. Here you will find in depth information for working with the Subscription Panel. The following topics are covered:
+This section of the guide contains tutorials, how-tos, and reference material for the Subscription Panel. Here you will find in depth information for working with the Subscription Panel. This section covers the following topics:
 
-- item 1
-- item 2
-- item 3
-- so on and so forth
+- Component matrix
+- Create, edit, or remove component properties
+- Create, edit, or delete a Presentation Template
+- Create or import Presentations
+- Preview a Presentation
+- Create, edit, or delete Presentations
 
 ### Components matrix
 
@@ -177,7 +179,7 @@ The matrix below defines each component. Each tab represents a component class a
 
 -----------------
 
-### Create, edit, and remove a property
+### Create, edit, or remove component properties
 
 #### Description
 
@@ -214,7 +216,7 @@ To remove a property from a component:
 
 -----------------
 
-### Create, edit, and delete a Presentation Template
+### Create, edit, or delete a Presentation Template
 
 You can only edit Presentation Templates at the `Client` hierarchical level. 
 
@@ -336,7 +338,7 @@ To preview a Presentation:
 
 -----------------
 
-### Edit, delete, or export a Presentation
+### Edit, delete, or export Presentations
 
 You can edit and delete Presentations.
 
@@ -383,3 +385,37 @@ To export a Presentation as HTML:
 2. Select **Subscription Panel**, then choose **Presentations**.
 3. Select the Presentation you wish to export from the **selected** drop-down menu.
 4. Select the **options** drop-down, then choose **Business export**. The download dialogue will appear.
+
+-----------------
+
+### Add a landing to a Presentation
+
+#### Overview
+
+A landing page hosts desired promotions that you want potential subscribers to see immediately.  
+
+To add a landing to your Presentation, make the `Landing` component a child of the `Page` component, then add any desired promotion components as children of the `Landing` component. Which ever promotions components you choose will appear on the landing page.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to add a landing. The Presentation's structure and components will appear below.
+4. Drag the `Landing` component into the Presentation and make it a child to the `Page` component.
+5. Expand the `Landing` component to display it's children, then add promotion components as children (e.g. `Promotion Digital`, `Promotion ZipCode`, etc).
+
+Next, configure the promotion component's properties. Select the **details** button to expand the component's properties.
+
+At minimum, configure the following properties:
+
+* `Button OfferGroupId` - add the promotion's Offer Group ID to this property. This links this promotion component to the promotion in the circulation database.
+* `NoOffersAvailableMessage` - add a message to this property. This displays a message to users when there are no offers available to them (usually because of location).
+
+Other important properties:
+
+* `Styling EnableCustomization` - if `On`, allows you to customize the landing promotion's styling (e.g. `Styling Button Type`, `Styling TextColor`, etc).
+* `ActionsInModal` - if `On`, displays the promotions in a Modal window so that user's must choose before continuing.
+* `Action ZipCodeFail Title` - error message for postal codes that are out of geographic range.
+* `Tile Top Text` - if `Show Tile Top` is `On`, then the text that displays on the top of the offer promotion's tile.

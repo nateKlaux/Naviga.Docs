@@ -1,0 +1,45 @@
+Common Questions
+
+
+HOW TO DO PASSWORD ON CONFIRMATION FLOW
+
+- there is a special comonent for this
+
+background on feature,
+
+usually to get more conversions and make checkout more efficient,
+
+they don't want to connect the password until after the checkout is completed.
+
+You'll see password registration only if the email address is brand new and the registration doesn't exist in database.
+
+(if it does exist, it just won't prompt you)
+
+two pieces to set up:
+
+paymentmethods VD, then turn on payment email address (or something, it's a property i believe near the top)
+
+then add `registration on confirmation v3` as child to `confirmation V3` component`, and 
+ - required properties: title, button and password show = on
+
+
+
+HOW TO CHANGE THEME OR LOOK AND FEEL OF SP
+two things:
+
+1- presentation properties v3
+
+ - then check out themes, and there are simple and default
+
+
+2 - on PageV3 has the Page Type Property
+ - call accordion, expanded accordion, one, full page, progressive as steps.
+
+
+
+HOW TO SET UP AN UPSELL OFFER
+
+- need Upsell V3 component must be added as a child of a Step V3 component 
+
+property recomendataions:
+inline Title, Marketing Text, and Offer ShowImage = on
