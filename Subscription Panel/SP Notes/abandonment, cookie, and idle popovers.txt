@@ -1,0 +1,65 @@
+If no style background color is used (hexidecimal), the default that the IM set up is used.
+
+
+
+How to configure an abandonment popover?
+
+the goal of the popover is to present an offer whenever the mouse goes to the top, it pops up.
+
+
+
+simplelanding
+
+abandonmentpopverV3 must be a child of PageV3
+
+
+
+Needed properties:
+
+button text:
+title and body
+
+optionally background color, background image
+
+
+madwidth px = 480 that's the size of the popover
+
+
+Button offergroupID = the offer you want. sometimes it's a sale, or something else
+
+
+buttonShow = ON
+
+
+
+
+
+
+
+--------IDLE Popover
+
+child of Page V3
+
+properties:
+
+idle timeout = 5 secons, for instance
+
+Number of Openings: how many times the button pops up
+
+
+
+
+
+-------------- Cookie Popover
+
+
+Child of Page V3
+
+look at  user story 41553
+
+mention that once accepted, it will not show banner again for 120 days
+
+
+
+properties:
+- 

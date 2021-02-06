@@ -394,7 +394,7 @@ To export a Presentation as HTML:
 
 A landing page hosts desired promotions that you want potential subscribers to see immediately.  
 
-To add a landing to your Presentation, make the `Landing` component a child of the `Page` component, then add any desired promotion components as children of the `Landing` component. Which ever promotions components you choose will appear on the landing page.
+To add a landing to your Presentation, make a landing component (e.g. `Landing - Tiles V3`, `Landing - Tab V3`, etc.) the child of the `Page V3` component, then add any desired promotion components as children of the landing component. Which ever promotions components you choose will appear on the landing page.
 
 #### Step-by-step guide
 
@@ -403,19 +403,229 @@ Arrange the components:
 1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
 2. Select **Subscription Panel**, then choose **Presentations**.
 3. From the drop-down menu, select the Presentation you wish to add a landing. The Presentation's structure and components will appear below.
-4. Drag the `Landing` component into the Presentation and make it a child to the `Page` component.
-5. Expand the `Landing` component to display it's children, then add promotion components as children (e.g. `Promotion Digital`, `Promotion ZipCode`, etc).
+4. [Add](link to how to add new components) or drag your desired landing component into the Presentation and make it a child to the `Page` component.
+5. Expand the landing component to display it's children, then add promotion components as children (e.g. `Promotion Digital`, `Promotion ZipCode`, etc).
 
 Next, configure the promotion component's properties. Select the **details** button to expand the component's properties.
 
-At minimum, configure the following properties:
+At minimum, the property needs a name. However, we suggest you configure the following properties:
 
 * `Button OfferGroupId` - add the promotion's Offer Group ID to this property. This links this promotion component to the promotion in the circulation database.
 * `NoOffersAvailableMessage` - add a message to this property. This displays a message to users when there are no offers available to them (usually because of location).
-
-Other important properties:
-
 * `Styling EnableCustomization` - if `On`, allows you to customize the landing promotion's styling (e.g. `Styling Button Type`, `Styling TextColor`, etc).
 * `ActionsInModal` - if `On`, displays the promotions in a Modal window so that user's must choose before continuing.
 * `Action ZipCodeFail Title` - error message for postal codes that are out of geographic range.
 * `Tile Top Text` - if `Show Tile Top` is `On`, then the text that displays on the top of the offer promotion's tile.
+
+
+-----------------
+
+### Add social media icons at the confirmation screen
+
+#### Overview
+
+You can add social media icons to your confirmation screen. Each social media element has it's own component. Each `Social Media V3` component must be a child of the `Confirmation V3` component, which is a child of the `Page V3` component.
+
+#### Before you start
+
+Before you follow the steps below, be sure that the `Confirmation V3` component is a child of the `Page V3` component.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to add social media components to. The Presentation's structure and components will appear below.
+4. Drag a `Social Media V3` component into the Presentation and make it a child to the `Confirmation V3` component.
+    **Note**: Each social media icon requires it's own component. For instance, if you want icons for Facebook, Twitter, and LinkedIn, you will need three social media components.
+
+5. Select **save**.
+
+Configure various component properties: 
+
+1. Navigate to the social media components.
+2. Expand each social media component and fill out the `SocialMedia Link` `SocialMedia Type` properties. **Example**: For Twitter, enter `www.twitter.com` for the link and select `Twitter` from the `type` drop-down menu.
+3. (Optionally, configure the `SocialMedia Header` [e.g. "Follow us on"].)
+4. Select **save**.
+
+
+-----------------
+
+### Add app-download buttons to the confirmation screen
+
+#### Overview
+
+You can add app-download buttons to the confirmation screen. Currently we support buttons for the Apple App Store and the Google Play Store. Each app store button needs it's own `App Downloads V3` component, which must be a children of the `Confirmation V3` component.
+
+#### Before you start
+
+Before you follow the steps below, be sure that the `Confirmation V3` component is a child of the `Page V3` component.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to add download buttons to. The Presentation's structure and components will appear below.
+4. Drag a `App Downloads V3` component into the Presentation and make it a child to the `Confirmation V3` component.
+    **Note**: Each app store icon it's own component. For instance, if your app is in both the Apple App Store and the Google Play Store, you will need two components.
+5. Select **save** next to each component to save your work.
+
+Configure various component properties:
+
+1. Navigate to the `Confirmation V3` component that is the parent to your `App Downloads V3` components.
+2. Select the **details** button to expand the component's properties.
+3. Toggle `AppDownloads.Show` to `ON`.
+4. (Optionally, configure the `AppDownloads Header` [e.g. "Download our apps].)
+5. Select **save**.
+
+Other non-mandatory properties:
+
+* `AppDownloads.Subtitle` - Subtitle to the header
+* `AppDownloads.Image` - adds a background image
+* `AppDownloads.Styling.Background` - changes the background color
+
+
+-----------------
+
+### Configure an upsell offer
+
+#### Overview
+
+You can add add upsell offers to your components by added the `Upsell V3` component as a child to any `Step V3` component.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to add an upsell feature to. The Presentation's structure and components will appear below.
+4. Drag the `Upsell V3` component into your Presentation and make it a child to any `Step V3` component.
+5. Select **save**.
+
+Configure various component properties:
+
+1. Navigate to the `Upsell V3` component and select the **details** button.
+2. Toggle `Offer ShowImage` to `On`.
+3. Add text to the `InlineTitle` property and `Offer MarketingTitle Text`.
+4. Select **save**.
+
+> **Note**: These are the recommended properties to make your component functional. Fill in the other properties to add more customization.
+
+### Ask for registration password only at confirmation
+
+#### Overview
+
+You can arrange your Subscription Panel to ask for a user's registration password _after_ they've finished purchasing, at the confirmation screen. The component checks the user's email to see if it is new, and if it is, it will prompt for a registration password.
+
+This often leads to more customer retention, and makes the checkout process efficient. Todo this, the `Registration on Confirmation V3` component needs to be a child of the `Confirmation V3` component. Follow the instructions below for a step-by-step guide.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to edit. The Presentation's structure and components will appear below.
+4. Using the Component Selector tool, drag the `Registration on Confirmation V3` component into your Presentation and make it a child to any `Confirmation V3` component.
+5. Select **save**.
+
+Configure various component properties:
+
+1. Navigate to the `Registration on Confirmation V3` component and select the **details** button.
+2. Toggle `Password Show` to `On`.
+3. Toggle `Password Validation Required Apply` to `On`.
+4. Add text to the `Title` property (e.g. "Create a password") and `Button Text` property (e.g. "Submit").
+5. Select **save**.
+
+### Add an abandonment popover
+
+#### Overview
+
+An abandonment popover is a popover that appears whenever a user moves their pointer near the top of the screen, presumably to abandon the page. The popover usually contains an offer at a discounted price, though you can customize the popover to contain any offer.
+
+To add this popover to your presentation, add the `AbandonmentPopoverV3` component as a child to the `Page V3` component. Follow the step-by-step guide below for more instructions.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to edit. The Presentation's structure and components will appear below.
+4. Using the Component Selector tool, drag the `AbandonmentPopoverV3` component into your Presentation and make it a child to any `Page V3` component.
+5. Select **save**.
+
+Configure various component properties:
+
+1. Navigate to the `AbandonmentPopoverV3` component and select the **details** button.
+2. Toggle `Button Show` to `On`.
+3. Add the offer id of the offer you wish to sell to the `Button OfferGroupId` field. This links the button to your offer in circulation.
+4. Add text to the `title` and `body` properties (e.g. "Get Unlimited Access to Local News");
+5. Add text to the `Button Text` property (e.g. "Get this Offer").
+6. Set the `MaxWidth(px)` property to determine the pixel size of your popover. 480 pixels is standard.
+7. Select **save**.
+
+> **Note**: These are the recommended properties we suggest to get going for a functional abandonment popover. Optionally, configure the `BackgroundColor`,`BackgroundImage`, or other properties.
+
+
+### Add an idle popover
+
+#### Overview
+
+You can add an idle popover to your Subscription Panel that triggers a reminder popover at determined intervals.
+
+To add this popover to your presentation, add the `Idle Popover V3` component as a child to the `Page V3` component. Follow the step-by-step guide below for more instructions.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to edit. The Presentation's structure and components will appear below.
+4. Using the Component Selector tool, drag the `Idle Popover V3` component into your Presentation and make it a child to any `Page V3` component.
+5. Select **save**.
+
+Configure various component properties:
+
+1. Navigate to the `Idle Popover V3` component and select the **details** button.
+2. Add a number of seconds `Idle Timeout (sec)` property. This number determines how many seconds go by before the popover appears.
+3. Add a number to the `NumberOfOpenings` property. This number determines how many times the idle popover appears before it stops altogether.
+4. Select **save**.
+
+> **Note**: These are the recommended properties we suggest to get going for a functional idle popover. Optionally, configure the `BackgroundColor`,`BackgroundImage`, `BorderColor`, and `BorderWidth` properties.
+
+### Add a cookie popover to your Presentation
+
+#### Overview
+
+You can add a cookie notice popover to your Presentation that notifies users of which cookies are being collected. When a user visits the page, the page will check to see if a igmck cookie with a value of `TRUE` already exists. If it does, nothing will happen. If it does not, a cookie banner will display. When the user closes the banner, a cookie will be set with a value of `TRUE` and an expiration date of 120 days.
+
+To add the cookie notice popover, you must add the `Cookie Notice V3` component as a child to the `Page V3` component. Follow the step-by-step guide below for more instructions.
+
+#### Step-by-step guide
+
+Arrange the components:
+
+1. From the CMS, select the **hierarchy** button and choose a level (`Client`, `Newspaper Group`, or `Newspaper`).
+2. Select **Subscription Panel**, then choose **Presentations**.
+3. From the drop-down menu, select the Presentation you wish to edit. The Presentation's structure and components will appear below.
+4. Using the Component Selector tool, drag the `Cookie Notice V3` component into your Presentation and make it a child to any `Page V3` component.
+5. Select **save**.
+
+Configure various component properties:
+
+1. Navigate to the `Cookie Notice V3` component and select the **details** button.
+2. Enter values for the following property fields:
+    `CookieText` - The text that appears on the banner, typically explaining that by continuing the user agrees to the cookies.
+    `CookieLink` - A link typically to your privacy policy.
+    `CookieLinkText` - The text of your link.
+3. (Optionally, enter values for the following property fields:)
+    `Styling BackgroundColor` - a hexadecimal field for the banner color. If not used, the default color will be used.
+    `Styling TextColor` - a hexadecimal field for the text color.
+4. Select **save**.
+

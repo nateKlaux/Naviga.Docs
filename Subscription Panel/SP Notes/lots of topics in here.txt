@@ -1,0 +1,95 @@
+--- How to redirect to a different presentation on mobile devices
+
+this redirects user's to 
+
+Create a mobile Presentation
+
+Presentation 
+
+properties:
+detecttMobivle devices
+mobidleredirectUrl - of the mobile presentation.
+
+
+
+---- OG Tags
+
+Og tags are the pic that appear when you share something. What Facebook uses as the title, image, etc.
+
+Presentation component properties:
+
+OGTags
+OgTags Imag
+SiteName
+Title
+
+
+---- How to turn Recaptcha score
+
+presentation component:
+Turnoff Captcha
+RecaptchaScore
+
+Look up what a good score or average score. 
+
+
+
+----- padding
+
+two kinds of padding
+
+If the page type is 1, it doesn't matter. if the page type is expanded, or accordion,t hen you'll see the padding
+
+Step Padding -- between to step components
+
+InputPadding -- padding between two input fields.
+
+Should be a drop-down, but it's not here right now. 
+
+
+
+----how to configure newsletter signup on confirmation
+
+
+confirmation component properties:
+
+
+Newslettersignup = show
+
+NewsLetter Sign Up show in the end = On
+
+ 
+NewsletterSignupPreference D List = list of ids you want user to sign up
+
+SignUp Confirmation Message = what user sees when you confirm signup
+
+error message = what shows up if it fails. 
+
+
+----- coupon codes
+
+allows a customer to use a multi-use code that is set up in Solicitor. 
+
+called multi-use codes in Solicitor
+make sure these are set up in Solicitor (pre req)
+
+
+On promotion digital and promotion zip code components:
+
+properties: 
+
+button OfferGroupId - have multiuse codes setup, what ever offer here make sure in solicitor is set up for multi-use codes.
+
+- action coupon show = On
+- action coupon placeholder: 
+- action coupon validation required message: 
+
+adds a coupon codes. 
+
+available on all the landing types, and promotion and digital. 
+
+- actions in modal: turns it into a popup instead of on the offer itself.
+
+
+
+
