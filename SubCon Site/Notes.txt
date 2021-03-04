@@ -1,0 +1,222 @@
+
+FOR SCREENSHOTS, DON'T CHANGE ANYTHING, FOR DEMO PURPOSES: 
+
+
+
+
+CAN CHANGE: MG2GroupStripe, 
+
+credentials: nlaux
+password1
+
+
+
+
+
+CMS Site
+============
+
+
+self-service = SubCon Site
+
+
+CMS manages what end-users see on their SubCon Site.
+
+Audience = business users, desiging the subcon page, 
+
+
+Email Content = 
+Sub Panel
+Admin = all equal different thing
+
+EVERYTHING ELSE = SUB Con SITE
+
+
+Entity = every element they are able to change. 
+
+
+
+
+==== Maybe first thing to do, is ~IMAGES~
+
+From technical perspective, stored in a bucket. Don't need to keep them locally. 
+
+Define the category of the images == so you can filter the images by category, to make it easier to understand. 
+
+note: new feature in 3.12, for accessibility, when hover, things will be voiced. 
+
+
+======= SLIDESHOW
+
+The only page the slide show is used is on the main page.
+
+technically can be on other pages, or used everywhere, but really only used on main page.
+
+is there a maxinum number of images? Believes no. 
+
+
+Can schedule certain dates and times for a slideshow to appear.
+
+Can make images clickable, need to specify a link. 
+
+
+
+====== BENEFITS
+
+benefits and rewards appear in the same place
+
+can see the benefit page if logged out (optional), but to actually get the benefit must be logged in
+
+Provides a customer a benefit. 
+
+Benefits are like a marketing thing. e.g. "The benefit of using this newspaper IS...."
+
+For Gannet = 'discover the benefits of being a memeber"  and ' edition of the newspaper'
+
+
+========== REWARDS
+
+(mng only client that uses rewards feature)
+
+benefits and rewards appear in the same place.
+
+only one client using rewards
+
+rewards = total tickets available. 
+
+Technically, might be able to see rewards, but to claimr ewards, will need to be logged in. 
+
+
+Example of rewards
+
+
+Rewards are anything that clients set up for their customers as rewards/benefits/contests/prizes, etc. 
+
+
+========== Attributes
+
+Attributes make managing content easier.
+
+There are several types of managing and attribute. 
+
+Can make attributes for benefits and rewards. 
+
+For example, can make a schedule attribute, then use it as a reward. 
+
+attributes are not containers, just for title, text. 
+
+Question, attributes here go to SolCon?????
+
+
+
+=================== Content
+
+
+Typically, naviga managers set up pages, segments,
+
+
+
+For segment management, 
+
+
+assign segments... select a page, then a list of assigned segments. IF A SEGMENT IS NOT HERE, then it will not appear in the content page.
+
+
+For the content pages,
+
+Each annotation is a piece of content. 
+
+
+
+
+
+====== FAQ
+
+Typically not in the SubCon Site, might be best in a different document. 
+
+
+
+This section is not really used by any clients. Most prefer to use their own CMS systems to manage FAQs. That said, we do provide clients an opportunity to use one
+
+
+
+======== Navigation Menu
+
+
+Links - manages all links everywhere
+
+
+menu - the name is only to define them in CMS
+
+supports a tree structure
+
+
+
+Footer
+only one footer on a page, footer can consist of several columns. If there is only one column, the links will be displayed in a row. If there are two colums, there will be two columns. 
+
+can override basically any option
+
+
+
+
+
+
+
+
+========== Notification Management
+
+
+Kind of complicated, because there are several sections
+
+
+Notification new Mngmt, (admin section)
+available at the highest level only
+
+Can add, delete and edit notifications.
+note: description is just that and not that actual message
+
+
+Notification Message
+
+Only available at the lowest level. 
+
+
+Technically, after it is set up, anyone can change the message. 
+
+======================
+
+
+
+
+
+==============
+
+
+- It's not exactly clear to me how CMS, SubCon, and Self-Service interact. I think this is likely because I haven't logged into either SubCon or Self-Service, so it's hard for me to imagine what these sites look like. Can you denote which parts of the CMS affect - Self-Service and which parts affect SubCon Site? Also, do you have links for the SubCon Site and a Self-Service site that I can log into and get a feel for?
+
+
+- For a new client, if it's their first time looking at the CMS page. What are the first essential things they'll need to do. Do these things vary from client to client? Or are there common things **every** client will want to do? Are there things that are already imported, automatically done, or done by Naviga?
+
+
+- When you write about "entities", I'm not exactly sure of what you mean. (In the hierarchy section)
+
+- Where are slideshows used? Can you show me how this affects end-users?
+
+- FAQ section is a little fuzzy to me. Maybe we can go over that too. 
+
+- Content section makes sense... is the following accurate...?...essentially, each "page" (from the drop-down menu) is a page on the SubCon site, and you manage what displays on those pages from the content section? Fuzzy on "segments" though, maybe we can go over that? Need some examples of segments.
+
+
+
+
+
+= Promotions are insnae.
+
+used on subscription panel, though displays essentially as an Offer. Or, perhaps, two offers of a particular 
+
+
+
+
+
+

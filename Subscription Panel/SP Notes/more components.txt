@@ -1,0 +1,154 @@
+==== Google Address Auto Complete
+
+
+Address line 1 and line 2 are usually the ones that show
+
+
+Client would have to enable the API key
+
+
+
+
+How to configure that in CMS is simple:
+
+
+Components - Billing Information and Delivery Information
+
+Properties:
+
+
+AddressLine AutoComplete Apply = On
+ - turns the feature on.
+
+AddressLine AutoComplette ApplyGeoLocation = On
+- gives you search suggestsions based on geo locations
+
+AddressLine Auto Complete
+NONUsErrorText 
+- ask Irina what this means
+
+
+
+
+====== How to redirect to Mobile
+
+
+Page Weekly Component
+
+
+- MobileTitle
+- MobileSubttiel
+- AlternativeMobileStyling = on
+
+then all the mobile styling properties 
+
+
+
+
+
+====== Update Favicon, Update Metadata
+
+- Page Meta title and w/e that Favicon is.  
+
+
+=== one-time use codes
+
+component titled: 'OneTimeUse Codes V3' and needs to be a child of a step component
+
+
+Prerequisite = set up in Solicitor
+
+properties:
+
+
+
+===== Set up an international Presentation
+
+basically, need both the US and International Ones for both. 
+
+
+1:
+`Presentation Properties` component
+
+`International` = `On`
+
+2: 
+In the address components:
+
+Delivery and Billing Information V3 Components,
+
+Turn on thhe
+AddressLine 1 and related fields
+Second line and related fiels
+`PostalCode Show` = on
+postalCode title = fill out
+PostCode Vlaidation = on
+
+PostalCode Validation Required Message = fill out
+
+Country show = on
+
+and related fields
+
+`InternationalCity` = On
+then international city related fields
+InternationalCity validation
+
+InternationalPhone Number
+
+
+Also turn on AddressLine1 and Addressline 2
+
+
+
+======== How to Enable Mather on SP (leaving this for now, it is just an implementation task) 
+Mather is a machine learing tech
+
+Create and Load  Mather - maybe 53849 user story. 
+
+30562 user story 
+need customer Id and market ID
+
+GIST: Needs the customerID and marketId from mather, for both non-prod environment and prod environment, then need to reach out to an implementation manager to help enable this.
+
+
+
+====== How to capture analytics into Sales Funnell
+
+GA = google analytics. Basically, every event is sent to GA. see note in sub panel doc
+
+
+
+
+====== How to do cart abandonment
+
+For discover, two types of places events go. They go to GA and then to our own database. Clients can check out steps in our database, and that can be tracked in Discover. 
+
+For Discover Clients, using our own database. For non-discover clients, use GA. 
+
+
+
+==== How do I turn on Offer marketing Text, title, image
+
+How do I turn on these thigns in the Offer Selector and also in the Sticky Note
+
+ Check Presentation: `Simple landing withuserinfo1NEW`
+
+offer selector is child of a page v3
+You need to add Offer Selector Tiles  V3 component
+
+Show Offter Title - on or off
+Showw oFfer Price - on or off
+Show Offer Image - on or off
+Show Offer Marketing Text - on or off
+
+Same thing for sticky note:
+sticky note is child of a page v3
+OfferPartsVisibility{Price, Text, Image}
+OfferTextShow
+
+
+ 
+
+
+

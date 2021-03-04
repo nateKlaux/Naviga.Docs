@@ -1,0 +1,34 @@
+Since the email is not registered
+
+Subscripption Table
+
+
+
+example. User can have three email addresses:
+
+1 email address for subscriber or subscription
+
+2 registered email addresses. 
+
+uc1
+Person who bought, would be have the email address same subscriber/subscription
+
+Registered email addresses would be like a partner or parent who are 'linked' to a registration, but are not the subscriber themselves. You don't want to link, say, my partner's email whom is 'borrowing' my registration as the 'subscriber email'
+
+
+
+uc2
+
+when logging in, you can just log ing, or you can activate your account
+
+
+when you activate = you register
+
+after you create a registration, links their subscription to their account. 
+
+
+
+
+just verify account by linking account on dashboard.
+
+

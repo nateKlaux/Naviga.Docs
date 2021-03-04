@@ -1,0 +1,56 @@
+
+Main notes:
+
+No more patch backs. if you don't update to current release, we're not going to do patch backs. This helps our development cycle stay on track. 
+
+
+
+
+
+
+Subscribe CEP Releases
+
+
+3.10 
+
+Development Cycle
+Testing Cycle
+Production Cycle
+
+Each release cycle takes 6-8 weeks
+
+
+
+3.11
+
+3.12
+
+and so forth
+
+
+Growing pain, every time 
+
+
+
+Issues
+
+patch back -- dev, rest, and risk
+
+
+in order to over come this, new process:
+
+
+base release -- 
+
+will finalize 
+
+
+
+
+Want this kind of documentation/communication.
+
+
+Want to discuss 
+
+
+Want to share, with clients how the release cycle going forward. 
